@@ -4,10 +4,10 @@
 
 MeshAxiom connects single-image geometry generation to compact explicit meshes, file-based tools, reusable asset records and scene programs. Its geometry backend, MeshAxiom-Base, accepts an image and a requested face budget; tools expose the resulting vertices, triangles and views for inspection and editing.
 
-[Project Page](https://alaya-lab.github.io/MeshAxiom/) · [Asset Library](https://alaya-lab.github.io/MeshAxiom/space-kit.html) · [Code](https://github.com/AlayaLab/MeshAxiom) · [Hugging Face](https://huggingface.co/AlayaLab)
+[Project Page](https://alaya-lab.github.io/MeshAxiom/) · [Asset Library](https://alaya-lab.github.io/MeshAxiom/space-kit.html) · [Code](https://github.com/AlayaLab/MeshAxiom) · [Hugging Face](https://huggingface.co/AlayaLab/MeshAxiom-Base)
 
 Explore 123 generated assets, nineteen assemblies and twelve animated scenes. Geometry and material views preserve the same scene state. The showcase includes selected meshes, bounded repairs, external materials and authored layouts, rigs and motion; optional H3 restyling is shown separately.
 
-This repository contains the static project website and asset-library page. Existing media, interactive viewers and styles continue to use the public showcase asset host. Model weights, training code and workflow tools are planned releases.
+This repository contains the static project website and asset-library page. Existing media, interactive viewers and styles continue to use the public showcase asset host. The [MeshAxiom-Base model repository](https://huggingface.co/AlayaLab/MeshAxiom-Base) is a private pre-release with access limited to authorized collaborators; model weights are not generally publicly downloadable. Training code and workflow tools are planned releases.
 
 The site is served directly from the repository root with GitHub Pages; `.nojekyll` preserves static asset handling. The document base points to the existing showcase host to keep shared media and viewer dependencies available, while canonical, navigation, social-image and project-owned script URLs use the MeshAxiom project path.
