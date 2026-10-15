@@ -8,6 +8,6 @@ MeshAxiom connects single-image geometry generation to compact explicit meshes, 
 
 Explore 123 generated assets, nineteen assemblies and twelve animated scenes. Geometry and material views preserve the same scene state. The showcase includes selected meshes, bounded repairs, external materials and authored layouts, rigs and motion; optional H3 restyling is shown separately.
 
-This repository contains the static project website and asset-library page. Existing media, interactive viewers and styles continue to use the public showcase asset host. The [MeshAxiom-Base model repository](https://huggingface.co/AlayaLab/MeshAxiom-Base) is a private pre-release with access limited to authorized collaborators; model weights are not generally publicly downloadable. Training code and workflow tools are planned releases.
+This repository contains the static project website and asset-library page. Existing media, interactive viewers and styles continue to use the public showcase asset host. The [MeshAxiom-Base model weights](https://huggingface.co/AlayaLab/MeshAxiom-Base) are publicly available. Training code and workflow tools are planned releases.
 
 The site is served directly from the repository root with GitHub Pages; `.nojekyll` preserves static asset handling. The document base points to the existing showcase host to keep shared media and viewer dependencies available, while canonical, navigation, social-image and project-owned script URLs use the MeshAxiom project path.
