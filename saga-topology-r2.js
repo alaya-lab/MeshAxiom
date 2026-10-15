@@ -98,8 +98,8 @@ const initialScene = fromHash in sagaScenes ? fromHash : (ready || Object.keys(s
 // Autoplay (muted) while the panel is on screen, looping the selected act.
 const localTopologyBindings = { ...reviewedTopologyMediaBindings(sagaScenes) };
 localTopologyBindings.act2_ground_war = {
-  "file": "https://alaya-lab.github.io/AlayaCrafter/assets/saga/act2_ground_war-topology-r2.mp4",
-  "poster": "https://alaya-lab.github.io/AlayaCrafter/assets/saga/act2_ground_war-topology-r2.webp",
+  "file": "https://alaya-lab.github.io/MeshAxiom/assets/saga/act2_ground_war-topology-r2.mp4",
+  "poster": "https://alaya-lab.github.io/MeshAxiom/assets/saga/act2_ground_war-topology-r2.webp",
   "sha256": "d54ac54d2c399fa48fb6c0d95cec1b00e8f5c977dc73ecb52107f792e29274f0",
   "bytes": 16450297,
   "frames": 345,

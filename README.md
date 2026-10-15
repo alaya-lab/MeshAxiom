@@ -1,11 +1,13 @@
-# AlayaCrafter: An Agent-First 3D Stack for Programmable Worlds
+# MeshAxiom: An Agent-Native 3D Foundation Stack for Programmable Worlds
 
 [Yonghao Yu](https://scholar.google.com/citations?user=lwuwuAYAAAAJ) · [Ruihan Yu](https://auroraryan0301.github.io/) · [Sho Kuno](https://shokuno5.github.io/) · [Muyao Niu](https://myniuuu.github.io/) · [Yu-Ju Tsai](https://liagm.github.io/) · [Zheng-Hui Huang](https://brian90709.github.io/) · [Fengbo Lan](https://openreview.net/profile?id=%7EFengbo_Lan1) · [Guixu Lin](https://www.researchgate.net/profile/Guixu_Lin) · [Runyi Li](https://lirunyi2001.github.io/) · [Chuanhao Li](https://nevermorelch.github.io/) · [Ming-Hsuan Yang](https://faculty.ucmerced.edu/mhyang/) · [Kaipeng Zhang](https://kpzhang93.github.io/) · [Zhixiang Wang](https://lightchaserx.github.io/)
 
-AlayaCrafter is an open-source, agent-first 3D stack (models and agentic workflow) that generates compact, clean-topology meshes AI agents can assemble, rig and animate.
+MeshAxiom connects single-image geometry generation to compact explicit meshes, file-based tools, reusable asset records and scene programs. Its geometry backend, MeshAxiom-Base, accepts an image and a requested face budget; tools expose the resulting vertices, triangles and views for inspection and editing.
 
-[Project Page](https://alaya-lab.github.io/AlayaCrafter/) · [Space Asset Library](https://alaya-lab.github.io/AlayaCrafter/space-kit.html)
+[Project Page](https://alaya-lab.github.io/MeshAxiom/) · [Asset Library](https://alaya-lab.github.io/MeshAxiom/space-kit.html) · [Code](https://github.com/AlayaLab/MeshAxiom)
 
-Explore twelve scenes made from AlayaCrafter generated meshes with their original topology. Compare gray geometry, topology and materials, and inspect the space asset library in 3D.
+Explore 123 generated assets, nineteen assemblies and twelve animated scenes. Geometry and material views preserve the same scene state. The showcase includes selected meshes, bounded repairs, external materials and authored layouts, rigs and motion; optional H3 restyling is shown separately.
 
-This repository contains the project website and asset-library page. Video, model and texture assets are served from the public AlayaCrafter showcase. The agentic workflow and models will be fully open-sourced.
+This repository contains the static project website and asset-library page. Existing media, interactive viewers and styles continue to use the public showcase asset host. Model weights, training code and workflow tools are planned releases.
+
+The site is served directly from the repository root with GitHub Pages; `.nojekyll` preserves static asset handling. The document base points to the existing showcase host to keep shared media and viewer dependencies available, while canonical, navigation, social-image and project-owned script URLs use the MeshAxiom project path.
