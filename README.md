@@ -4,7 +4,7 @@
 
 MeshAxiom connects single-image geometry generation to compact explicit meshes, file-based tools, reusable asset records and scene programs. Its geometry backend, MeshAxiom-Base, accepts an image and a requested face budget; tools expose the resulting vertices, triangles and views for inspection and editing.
 
-[Project Page](https://alaya-lab.github.io/MeshAxiom/) · [Asset Library](https://alaya-lab.github.io/MeshAxiom/space-kit.html) · [Code](https://github.com/AlayaLab/MeshAxiom)
+[Project Page](https://alaya-lab.github.io/MeshAxiom/) · [Asset Library](https://alaya-lab.github.io/MeshAxiom/space-kit.html) · [Code](https://github.com/AlayaLab/MeshAxiom) · [Hugging Face](https://huggingface.co/AlayaLab)
 
 Explore 123 generated assets, nineteen assemblies and twelve animated scenes. Geometry and material views preserve the same scene state. The showcase includes selected meshes, bounded repairs, external materials and authored layouts, rigs and motion; optional H3 restyling is shown separately.
 
