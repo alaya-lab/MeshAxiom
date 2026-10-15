@@ -57,7 +57,10 @@
 .ac-info-tip{position:absolute;left:-8px;top:calc(100% + 10px);z-index:5;width:min(340px,calc(100vw - 48px));padding:12px 14px;border:1px solid #ffffff2b;border-radius:8px;background:#0d0f14f2;backdrop-filter:blur(8px);color:#d7dce5;font:400 13px/1.55 var(--sans);letter-spacing:0;opacity:0;visibility:hidden;transform:translateY(-4px);transition:opacity .15s,transform .15s,visibility .15s}
 .ac-info:hover .ac-info-tip,.ac-info-button:focus-visible+.ac-info-tip,.ac-info-button[aria-expanded=true]+.ac-info-tip{opacity:1;visibility:visible;transform:none}
 @media(max-width:650px){.ac-info{position:static}.ac-hero-subtitle{position:relative}.ac-info-tip{left:0;top:calc(100% + 8px)}}
-.ac-hero-links{display:flex;flex-wrap:wrap;gap:10px}
+.ac-hero-links{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;width:min(100%,420px)}
+.ac-hero-links .ac-button{justify-content:center;min-width:0;white-space:nowrap}
+.ac-hero-links .ac-button svg{flex:none}
+@media(max-width:360px){.ac-hero-links .ac-button{padding-inline:8px;gap:6px;font-size:11px}}
 .ac-button{display:inline-flex;align-items:center;gap:10px;min-height:46px;padding:11px 22px;border:1px solid #ffffff59;border-radius:2px;background:#08080833;color:#f5f6f8;font:500 13px/1.4 var(--sans);text-decoration:none;transition:background .18s,border-color .18s}
 .ac-button:hover{background:#ffffff14;border-color:#f5f6f8}
 .ac-button.primary{background:#f5f6f8;border-color:#f5f6f8;color:#0a0a0c}
@@ -160,7 +163,7 @@
           <a class="ac-button primary" href="https://alaya-lab.github.io/MeshAxiom/#trailer"><svg viewBox="0 0 24 24" aria-hidden="true" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>Watch the trailer</a>
           <a class="ac-button" href="https://alaya-lab.github.io/MeshAxiom/space-kit.html">Explore the assets <svg class="arrow-ne" viewBox="0 0 16 16" aria-hidden="true"><path d="M2 14 13.5 2.5M8.5 2.5h5v5"/></svg></a>
           <a class="ac-button" href="https://github.com/AlayaLab/MeshAxiom" target="_blank" rel="noopener noreferrer">GitHub <svg class="arrow-ne" viewBox="0 0 16 16" aria-hidden="true"><path d="M2 14 13.5 2.5M8.5 2.5h5v5"/></svg></a>
-          <a class="ac-button" href="https://huggingface.co/AlayaLab/MeshAxiom-Base" target="_blank" rel="noopener noreferrer" title="MeshAxiom-Base private pre-release; authorized collaborators only">Hugging Face · Private preview <svg class="arrow-ne" viewBox="0 0 16 16" aria-hidden="true"><path d="M2 14 13.5 2.5M8.5 2.5h5v5"/></svg></a>
+          <a class="ac-button" href="https://huggingface.co/AlayaLab/MeshAxiom-Base" target="_blank" rel="noopener noreferrer" title="MeshAxiom-Base private pre-release; authorized collaborators only">Hugging Face <svg class="arrow-ne" viewBox="0 0 16 16" aria-hidden="true"><path d="M2 14 13.5 2.5M8.5 2.5h5v5"/></svg></a>
         </div>
       </div>
     </section>
