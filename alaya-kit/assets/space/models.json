@@ -1,0 +1,82 @@
+[
+  {
+    "key": "hero_cruiser",
+    "name": "Hero cruiser",
+    "faces": 18736,
+    "instances": 1,
+    "input": "assets/space/hero_cruiser-input.webp",
+    "gray": "assets/space/hero_cruiser-graywire.webp",
+    "material": "assets/space/hero_cruiser-material.webp",
+    "mesh": "assets/space/hero_cruiser.glb",
+    "compact": "assets/space/hero_cruiser.mesh.json",
+    "source": "https://alaya-lab.github.io/MeshAxiom/space-kit.html",
+    "materialKind": "Pixal3D texture (1024 px original-image conditioning) with the original input image projected onto the faces it sees; unchanged original geometry and UVs (2026-10-08)",
+    "materialMesh": "assets/space/hero_cruiser-pixal-proj.glb"
+  },
+  {
+    "key": "escort_frigate",
+    "name": "Escort frigate",
+    "faces": 9642,
+    "instances": 4,
+    "input": "assets/space/escort_frigate-input.webp",
+    "gray": "assets/space/escort_frigate-graywire.webp",
+    "material": "assets/space/escort_frigate-material.webp",
+    "mesh": "assets/space/escort_frigate.glb",
+    "compact": "assets/space/escort_frigate.mesh.json",
+    "source": "https://alaya-lab.github.io/MeshAxiom/space-kit.html",
+    "materialKind": "Pixal3D texture (1024 px original-image conditioning) with the original input image projected onto the faces it sees; unchanged original geometry and UVs (2026-10-08)",
+    "materialMesh": "assets/space/escort_frigate-pixal-proj.glb"
+  },
+  {
+    "key": "ring_segment",
+    "name": "Ring habitat segment",
+    "faces": 8041,
+    "instances": 8,
+    "input": "assets/space/ring_segment-input.webp",
+    "gray": "assets/space/ring_segment-graywire.webp",
+    "material": "assets/space/ring_segment-material.webp",
+    "mesh": "assets/space/ring_segment.glb",
+    "compact": "assets/space/ring_segment.mesh.json",
+    "source": "https://alaya-lab.github.io/MeshAxiom/space-kit.html",
+    "materialKind": "Pixal3D-generated PBR texture maps on unchanged original geometry"
+  },
+  {
+    "key": "central_core",
+    "name": "Central command core",
+    "faces": 20537,
+    "instances": 1,
+    "input": "assets/space/central_core-input.webp",
+    "gray": "assets/space/central_core-graywire.webp",
+    "material": "assets/space/central_core-material.webp",
+    "mesh": "assets/space/central_core.glb",
+    "compact": "assets/space/central_core.mesh.json",
+    "source": "https://alaya-lab.github.io/MeshAxiom/space-kit.html",
+    "materialKind": "Pixal3D-generated PBR texture maps on unchanged original geometry"
+  },
+  {
+    "key": "radial_spoke",
+    "name": "Radial access bridge",
+    "faces": 7987,
+    "instances": 4,
+    "input": "assets/space/radial_spoke-input.webp",
+    "gray": "assets/space/radial_spoke-graywire.webp",
+    "material": "assets/space/radial_spoke-material.webp",
+    "mesh": "assets/space/radial_spoke.glb",
+    "compact": "assets/space/radial_spoke.mesh.json",
+    "source": "https://alaya-lab.github.io/MeshAxiom/space-kit.html",
+    "materialKind": "Pixal3D-generated PBR texture maps on unchanged original geometry"
+  },
+  {
+    "key": "docking_port",
+    "name": "Docking hangar pod",
+    "faces": 14798,
+    "instances": 4,
+    "input": "assets/space/docking_port-input.webp",
+    "gray": "assets/space/docking_port-graywire.webp",
+    "material": "assets/space/docking_port-material.webp",
+    "mesh": "assets/space/docking_port.glb",
+    "compact": "assets/space/docking_port.mesh.json",
+    "source": "https://alaya-lab.github.io/MeshAxiom/space-kit.html",
+    "materialKind": "Pixal3D-generated PBR texture maps on unchanged original geometry"
+  }
+]

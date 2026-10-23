@@ -1,6 +1,6 @@
 // Space saga page: navigation and the shared gray/material player over the acts.
-import { mountWorkflow } from 'https://alayacraftertest.y0uroy.chatgpt.site/alayacrafter/saga-player-material.js?v=topology-library-v61-r1-20261012';
-import { sagaScenes, reviewedTopologyMediaBindings } from 'https://alayacraftertest.y0uroy.chatgpt.site/alayacrafter/saga-scenes.js?v=topology-library-v61-r1-20261012';
+import { mountWorkflow } from 'https://alaya-lab.github.io/MeshAxiom/alayacrafter/saga-player-material.js?v=topology-library-v61-r1-20261012';
+import { sagaScenes, reviewedTopologyMediaBindings } from 'https://alaya-lab.github.io/MeshAxiom/alayacrafter/saga-scenes.js?v=topology-library-v61-r1-20261012';
 
 const $ = (query, root = document) => root.querySelector(query);
 const $$ = (query, root = document) => [...root.querySelectorAll(query)];
@@ -11,7 +11,7 @@ function mountTrailerCover(video) {
   const frame = video.closest('.saga-trailer-frame');
   const cover = $('#saga-trailer-cover'), button = $('#saga-trailer-sound');
   const label = $('[data-play-label]', button), status = $('#saga-trailer-status');
-  const source = new URL(video.dataset.trailerSrc, document.baseURI).href;
+  const source = globalThis.meshAxiomAssetUrl(new URL(video.dataset.trailerSrc, document.baseURI).href);
   let generation = 0, requested = false, detachPlaying = () => {};
   const inView = () => {
     const box = frame.getBoundingClientRect();
@@ -36,7 +36,7 @@ function mountTrailerCover(video) {
     button.setAttribute('aria-busy', 'true');
     video.muted = false; video.defaultMuted = false; video.loop = false;
     if (video.volume === 0) video.volume = 1;
-    if (!video.getAttribute('src')) video.src = source;
+    if (!video.getAttribute('src')) video.src = globalThis.meshAxiomAssetUrl(source);
     try { video.currentTime = 0; } catch { /* A new source starts at zero. */ }
     let acknowledged = false;
     const reveal = () => {

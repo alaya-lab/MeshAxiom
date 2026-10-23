@@ -1,0 +1,207 @@
+[
+  {
+    "key": "fk_cargo_pod",
+    "faces": 11267,
+    "bytes": 428320
+  },
+  {
+    "key": "fk_engine_quad",
+    "faces": 7261,
+    "bytes": 421076
+  },
+  {
+    "key": "fk_engine_twin",
+    "faces": 10364,
+    "bytes": 445180
+  },
+  {
+    "key": "fk_nose_gunship",
+    "faces": 10469,
+    "bytes": 430356
+  },
+  {
+    "key": "fk_nose_interceptor",
+    "faces": 7501,
+    "bytes": 257984
+  },
+  {
+    "key": "fk_weapon_bay",
+    "faces": 9507,
+    "bytes": 355560
+  },
+  {
+    "key": "fk_wing_delta",
+    "faces": 7799,
+    "bytes": 238544
+  },
+  {
+    "key": "fk_wing_swept",
+    "faces": 7870,
+    "bytes": 362916
+  },
+  {
+    "key": "gear_ammo_crate",
+    "faces": 6054,
+    "bytes": 300528
+  },
+  {
+    "key": "gear_assault_rifle",
+    "faces": 6847,
+    "bytes": 200652
+  },
+  {
+    "key": "gear_drop_pod",
+    "faces": 10002,
+    "bytes": 432516
+  },
+  {
+    "key": "gear_energy_blade",
+    "faces": 5362,
+    "bytes": 156752
+  },
+  {
+    "key": "gear_medkit",
+    "faces": 6139,
+    "bytes": 274376
+  },
+  {
+    "key": "gear_plasma_pistol",
+    "faces": 9498,
+    "bytes": 340164
+  },
+  {
+    "key": "gear_power_cell",
+    "faces": 10245,
+    "bytes": 389444
+  },
+  {
+    "key": "gear_rocket_launcher",
+    "faces": 7299,
+    "bytes": 216172
+  },
+  {
+    "key": "gear_terminal",
+    "faces": 6584,
+    "bytes": 280480
+  },
+  {
+    "key": "hv_bio_turret",
+    "faces": 7842,
+    "bytes": 362816
+  },
+  {
+    "key": "hv_egg_cluster",
+    "faces": 7678,
+    "bytes": 374616
+  },
+  {
+    "key": "hv_gate",
+    "faces": 8936,
+    "bytes": 292580
+  },
+  {
+    "key": "hv_harvester",
+    "faces": 13214,
+    "bytes": 504416
+  },
+  {
+    "key": "hv_spire",
+    "faces": 13412,
+    "bytes": 451748
+  },
+  {
+    "key": "hv_spore_tower",
+    "faces": 7446,
+    "bytes": 384968
+  },
+  {
+    "key": "hv_synapse_node",
+    "faces": 7672,
+    "bytes": 355720
+  },
+  {
+    "key": "hv_wall",
+    "faces": 7802,
+    "bytes": 256748
+  },
+  {
+    "key": "mb_comms_tower",
+    "faces": 14493,
+    "bytes": 482336
+  },
+  {
+    "key": "mb_dome_habitat",
+    "faces": 8563,
+    "bytes": 373912
+  },
+  {
+    "key": "mb_greenhouse",
+    "faces": 9106,
+    "bytes": 295916
+  },
+  {
+    "key": "mb_lander",
+    "faces": 12256,
+    "bytes": 551792
+  },
+  {
+    "key": "mb_landing_pad",
+    "faces": 5694,
+    "bytes": 288804
+  },
+  {
+    "key": "mb_reactor",
+    "faces": 12589,
+    "bytes": 649240
+  },
+  {
+    "key": "mb_rover",
+    "faces": 8240,
+    "bytes": 453472
+  },
+  {
+    "key": "mb_terrain",
+    "faces": 9551,
+    "bytes": 776332
+  },
+  {
+    "key": "mb_tunnel",
+    "faces": 4668,
+    "bytes": 245312
+  },
+  {
+    "key": "pirate_captain",
+    "faces": 8376,
+    "bytes": 366980
+  },
+  {
+    "key": "pirate_gunship",
+    "faces": 9392,
+    "bytes": 328132
+  },
+  {
+    "key": "pirate_hauler",
+    "faces": 13310,
+    "bytes": 370108
+  },
+  {
+    "key": "pirate_outpost",
+    "faces": 11937,
+    "bytes": 418908
+  },
+  {
+    "key": "pirate_raider",
+    "faces": 12954,
+    "bytes": 391944
+  },
+  {
+    "key": "titan_mothership",
+    "faces": 15880,
+    "bytes": 396344
+  },
+  {
+    "key": "hive_ground",
+    "faces": 10031,
+    "bytes": 572480
+  }
+]

@@ -1,0 +1,57 @@
+[
+ {
+  "key": "carrier_deck",
+  "faces": 8996,
+  "bytes": 266344
+ },
+ {
+  "key": "carrier_bow",
+  "faces": 13101,
+  "bytes": 351188
+ },
+ {
+  "key": "carrier_stern",
+  "faces": 8525,
+  "bytes": 476168
+ },
+ {
+  "key": "carrier_island",
+  "faces": 15409,
+  "bytes": 488836
+ },
+ {
+  "key": "pd_turret",
+  "faces": 6959,
+  "bytes": 330136
+ },
+ {
+  "key": "fighter",
+  "faces": 9748,
+  "bytes": 393504
+ },
+ {
+  "key": "dropship",
+  "faces": 8472,
+  "bytes": 292136
+ },
+ {
+  "key": "cargo_container",
+  "faces": 5190,
+  "bytes": 201300
+ },
+ {
+  "key": "asteroid",
+  "faces": 9326,
+  "bytes": 451256
+ },
+ {
+  "key": "comm_satellite",
+  "faces": 8519,
+  "bytes": 297456
+ },
+ {
+  "key": "gate_segment",
+  "faces": 9874,
+  "bytes": 319624
+ }
+]

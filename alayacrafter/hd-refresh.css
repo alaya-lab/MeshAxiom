@@ -1,0 +1,9 @@
+/* Material controls follow the retained site design. */
+.space-model-modes,.space-model-tools{flex-wrap:wrap}
+.texture-badge{font:8px/1.5 var(--mono);white-space:nowrap;color:#a9c6eb;border:1px solid #a9c6eb30;border-radius:4px;padding:3px 5px;margin-left:auto}
+.texture-quality-control{display:inline-flex;align-items:center;gap:6px;margin-left:auto;font:10px/1.5 var(--sans);color:#93a4bc}
+.texture-quality-control select{max-width:110px;min-height:32px;padding:4px 7px;border:1px solid #394658;border-radius:5px;background:#131b27;color:#dfebfa;font:11px var(--sans);cursor:pointer}
+.texture-quality-control select:focus-visible{outline:2px solid #90c7ff;outline-offset:2px}
+.space-model-tools .hd-model-download{color:#b7d4fc}
+.hd-library-note{max-width:760px;font:12px/1.65 var(--sans);color:#96a7bf}
+@media(max-width:639px){.texture-quality-control{margin-left:0}.space-model-tools{gap:7px}.texture-quality-control select{max-width:100px}}

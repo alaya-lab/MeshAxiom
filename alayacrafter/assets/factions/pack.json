@@ -1,0 +1,62 @@
+[
+ {
+  "key": "bio_dreadnought",
+  "faces": 10022,
+  "bytes": 315256
+ },
+ {
+  "key": "bio_cruiser",
+  "faces": 13481,
+  "bytes": 379992
+ },
+ {
+  "key": "bio_frigate",
+  "faces": 7932,
+  "bytes": 325888
+ },
+ {
+  "key": "bio_fighter",
+  "faces": 7866,
+  "bytes": 278672
+ },
+ {
+  "key": "spore_bomber",
+  "faces": 7864,
+  "bytes": 280212
+ },
+ {
+  "key": "brood_pod",
+  "faces": 7618,
+  "bytes": 356552
+ },
+ {
+  "key": "marine_rifleman",
+  "faces": 11468,
+  "bytes": 340104
+ },
+ {
+  "key": "heavy_gunner",
+  "faces": 8116,
+  "bytes": 477000
+ },
+ {
+  "key": "sniper",
+  "faces": 8270,
+  "bytes": 287960
+ },
+ {
+  "key": "combat_engineer",
+  "faces": 8450,
+  "bytes": 418536
+ },
+ {
+  "key": "officer",
+  "faces": 11009,
+  "bytes": 319932
+ },
+ {
+  "key": "pilot",
+  "faces": 10738,
+  "bytes": 291212
+ }
+]

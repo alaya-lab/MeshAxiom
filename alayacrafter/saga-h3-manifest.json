@@ -1,0 +1,606 @@
+{
+  "schemaVersion": 1,
+  "fixture": false,
+  "defaultStyle": "dark-biomech-oil",
+  "styles": [
+    {
+      "id": "dark-biomech-oil",
+      "label": "H3 · Faction styles",
+      "family": "dark-fantasy-biomechanical-oil",
+      "state": "accepted"
+    }
+  ],
+  "acts": {
+    "act7_moon_base": {
+      "guideSha256": "f4b3e01fddb1f0e49a2f0e3b809581c9d6b3c5d282417387932b60c37f3e4401",
+      "controls": {
+        "gray": {
+          "file": "assets/saga/act7_moon_base-h3-guide-gray.mp4",
+          "sha256": "6c57c40e721e1fc66261d7cc5b68e23bbb806ef2d447f2f2a3a7fc19775af23c",
+          "bytes": 1060790
+        },
+        "material": {
+          "file": "assets/saga/act7_moon_base-hd-r1-material.mp4",
+          "sha256": "395c83e737328f0164bc8a53125ee2b71334d2650ea54897d3d7a50849eb4abf",
+          "bytes": 3640842
+        }
+      },
+      "versions": {
+        "dark-biomech-oil": {
+          "state": "accepted",
+          "file": "assets/saga/act7_moon_base_h3_oil_r1-h3-web.mp4",
+          "sha256": "e8e169368d274d5842e2ef0ee5a7efeb10e50ce9e694b636b39c77e4bdcf320e",
+          "bytes": 11098409,
+          "poster": "assets/saga/act7_moon_base_h3_oil_r1-h3-web-poster.webp",
+          "guideSha256": "f4b3e01fddb1f0e49a2f0e3b809581c9d6b3c5d282417387932b60c37f3e4401",
+          "styleId": "dark-biomech-oil",
+          "fps": 24,
+          "frameCount": 345,
+          "firstPts": 0,
+          "duration": 14.375,
+          "audio": true,
+          "approval": {
+            "state": "accepted",
+            "receiptSha256": "24607a1a3b1c8cf7790710b14f3e7e26ad265afb9dcb717bec678348e4d5b065"
+          },
+          "technicalReceipt": {
+            "sha256": "d34729c157130a986b2687ec6840f3b2ab2a7c96cd8cc401e58c1b03cf5933a6",
+            "bytes": 39792
+          },
+          "note": "H3 rendition. White and graphite human machines retain industrial science-fiction designs."
+        }
+      },
+      "faction": "human",
+      "styleLabel": "Industrial sci-fi",
+      "styleDirection": "White, gray and graphite manufactured machines; retain industrial sci-fi hulls and mechanisms."
+    },
+    "act8_pirate_ambush": {
+      "guideSha256": "9d8e73911ddafe6ed12bc8aead02aa27e719879460e74ea9f76cbe61ada0a761",
+      "controls": {
+        "gray": {
+          "file": "assets/saga/act8_pirate_ambush-h3-guide-gray.mp4",
+          "sha256": "1275b12be379ce55ce313a5b6c25d93b75b04b02d17eef656c106b9cacd3ec14",
+          "bytes": 949568
+        },
+        "material": {
+          "file": "assets/saga/act8_pirate_ambush-hd-r1-material.mp4",
+          "sha256": "4617af3d562ab609dc835578a534e95e51da11a1423c0b2e8e5f866b61e88217",
+          "bytes": 4141913
+        }
+      },
+      "versions": {
+        "dark-biomech-oil": {
+          "state": "accepted",
+          "file": "assets/saga/act8_pirate_ambush_h3_oil_r1-h3-web.mp4",
+          "sha256": "ba0b006c8a308e20fceb273e5ddeae20661c940e0a9db18805be6a94a82fe246",
+          "bytes": 11039420,
+          "poster": "assets/saga/act8_pirate_ambush_h3_oil_r1-h3-web-poster.webp",
+          "guideSha256": "9d8e73911ddafe6ed12bc8aead02aa27e719879460e74ea9f76cbe61ada0a761",
+          "styleId": "dark-biomech-oil",
+          "fps": 24,
+          "frameCount": 345,
+          "firstPts": 0,
+          "duration": 14.375,
+          "audio": true,
+          "approval": {
+            "state": "accepted",
+            "receiptSha256": "d2317b7a887bbd75731f8ccbdc8a85fc30c844b01c263a9aabfddbff7bc37735"
+          },
+          "technicalReceipt": {
+            "sha256": "93a644b6916fd4155030a7ca5bac8b50b8c67107d52d82116d5861bd06926c36",
+            "bytes": 39851
+          },
+          "note": "H3 rendition. Human convoy ships and pirate craft retain industrial science-fiction designs."
+        }
+      },
+      "faction": "human",
+      "styleLabel": "Industrial sci-fi",
+      "styleDirection": "White, gray and graphite manufactured machines; retain industrial sci-fi hulls and mechanisms."
+    },
+    "act11_first_contact": {
+      "guideSha256": "334766902f5f767e12d71525e88296350706a513a861ac6a01d1f43c93c6d085",
+      "controls": {
+        "gray": {
+          "file": "assets/saga/act11_first_contact-h3-guide-gray.mp4",
+          "sha256": "1bc071c39bf7c10e3c199c942e24d7e2ef637d6b51096db25939fc3aae0d04af",
+          "bytes": 883718
+        },
+        "material": {
+          "file": "assets/saga/act11_first_contact-hd-r1-material.mp4",
+          "sha256": "2999bb6d9e788bacbab1ee537e6894f5cb1e5a26f628acc74580bf2851bebea1",
+          "bytes": 3042640
+        }
+      },
+      "versions": {
+        "dark-biomech-oil": {
+          "state": "accepted",
+          "file": "assets/saga/act11_first_contact_h3_oil_r3-h3-web.mp4",
+          "sha256": "c322bdeb798031c57fcf6f77cf73764347900cdf5a84a52f9f6f696b33c26da3",
+          "bytes": 11175961,
+          "poster": "assets/saga/act11_first_contact_h3_oil_r3-h3-web-poster.webp",
+          "guideSha256": "334766902f5f767e12d71525e88296350706a513a861ac6a01d1f43c93c6d085",
+          "styleId": "dark-biomech-oil",
+          "fps": 24,
+          "frameCount": 345,
+          "firstPts": 0,
+          "duration": 14.375,
+          "audio": true,
+          "approval": {
+            "state": "accepted",
+            "receiptSha256": "e748a46f58733dac35f47bbf0999cefe9eee40031450731ab3fe82b516d61ed0"
+          },
+          "technicalReceipt": {
+            "sha256": "8ee9cb318be23248b6b8ada31bf6e0de034b18e616dc762c33f25b222b931b8b",
+            "bytes": 40003
+          },
+          "note": "H3 rendition. Alien elements use dark biomechanical oil colours; human ships and machinery retain industrial science-fiction designs."
+        }
+      },
+      "faction": "mixed",
+      "styleLabel": "Biomechanical oil / Industrial sci-fi",
+      "styleDirection": "Dark fantasy and biomechanical oil surfaces on alien elements; preserve white/gray/graphite industrial sci-fi machinery on human elements."
+    },
+    "act9_hive_awakens": {
+      "guideSha256": "372e542f0e1dda2ea3069a60c16069e0ef85acc394571c696550d358e355d916",
+      "controls": {
+        "gray": {
+          "file": "assets/saga/act9_hive_awakens-h3-guide-gray.mp4",
+          "sha256": "a4b9f58eca19da5513e7988b5cd1664ca064067375dc2e02158de434a744e063",
+          "bytes": 1382570
+        },
+        "material": {
+          "file": "assets/saga/act9_hive_awakens-hd-r1-material.mp4",
+          "sha256": "a92b4759b3d0867fc5167b7b9fabd05540cf645eb885b14f169eda08ffffab7d",
+          "bytes": 5061712
+        }
+      },
+      "versions": {
+        "dark-biomech-oil": {
+          "state": "accepted",
+          "file": "assets/saga/act9_hive_awakens_h3_oil_r3-h3-web.mp4",
+          "sha256": "2520583aade421bc96315c38ee38103ded9e230960a7cac616f95cfc0be45237",
+          "bytes": 10950886,
+          "poster": "assets/saga/act9_hive_awakens_h3_oil_r3-h3-web-poster.webp",
+          "guideSha256": "372e542f0e1dda2ea3069a60c16069e0ef85acc394571c696550d358e355d916",
+          "styleId": "dark-biomech-oil",
+          "fps": 24,
+          "frameCount": 345,
+          "firstPts": 0,
+          "duration": 14.375,
+          "audio": true,
+          "approval": {
+            "state": "accepted",
+            "receiptSha256": "29d09403dec768b0c18c29962fe08f944582524cb7ce852cab66218ac2315cf5"
+          },
+          "technicalReceipt": {
+            "sha256": "cf844bb7c3bc0c2d74028cda3d7cc439d59c9e15edb4e7c79305931b112cba15",
+            "bytes": 48419
+          },
+          "note": "Alien biomechanical chambers use muted oil-painting colours and broad, warm shadows."
+        }
+      },
+      "faction": "alien",
+      "styleLabel": "Dark fantasy · Biomechanical oil painting",
+      "styleDirection": "Dark fantasy and biomechanical oil surfaces on alien elements; preserve white/gray/graphite industrial sci-fi machinery on human elements."
+    },
+    "act1_station_siege": {
+      "guideSha256": "7209e661adb7fabf3ef0cbb189ed42ca6368dfff35d929fbaadb46c95097cc53",
+      "controls": {
+        "gray": {
+          "file": "assets/saga/act1_station_siege-h3-guide-gray.mp4",
+          "sha256": "42fb5b3adba928fdee8fe1682df37c97b300e24b4748ec21e1e57a712e915597",
+          "bytes": 545948
+        },
+        "material": {
+          "file": "assets/saga/act1_station_siege-hd-r1-material.mp4",
+          "sha256": "849282cd297e90e66406c5dd4e785825fbc7ad131a661a7f72f87e4c75e8da34",
+          "bytes": 2730771
+        }
+      },
+      "versions": {
+        "dark-biomech-oil": {
+          "state": "accepted",
+          "file": "assets/saga/act1_station_siege_h3_oil_r3-h3-web.mp4",
+          "sha256": "0eac27072ff208ac953e75877d8ef892ddb7a02ee5df099a0e28a2a4aae2e8f1",
+          "bytes": 10500650,
+          "poster": "assets/saga/act1_station_siege_h3_oil_r3-h3-web-poster.webp",
+          "guideSha256": "7209e661adb7fabf3ef0cbb189ed42ca6368dfff35d929fbaadb46c95097cc53",
+          "styleId": "dark-biomech-oil",
+          "fps": 24,
+          "frameCount": 345,
+          "firstPts": 0,
+          "duration": 14.375,
+          "audio": true,
+          "approval": {
+            "state": "accepted",
+            "receiptSha256": "d84ed96c6153bfb4eb53e695f33b15898d41df08d8541972c15513f089d02c6f"
+          },
+          "technicalReceipt": {
+            "sha256": "27af53936a9e78811fae854cfc7a7e8c510706cdb940ffdaeae5fc4bc73e5fc8",
+            "bytes": 39989
+          },
+          "note": "H3 rendition. Alien elements use dark biomechanical oil colours; human ships and machinery retain industrial science-fiction designs."
+        }
+      },
+      "faction": "mixed",
+      "styleLabel": "Biomechanical oil / Industrial sci-fi",
+      "styleDirection": "Dark fantasy and biomechanical oil surfaces on alien elements; preserve white/gray/graphite industrial sci-fi machinery on human elements."
+    },
+    "act2_ground_war": {
+      "guideSha256": "67acec0eafdca90d74dd5a48f2f0da03e18cb0b558dba394749a2667960b0451",
+      "controls": {
+        "gray": {
+          "file": "assets/saga/act2_ground_war-h3-guide-gray.mp4",
+          "sha256": "59f9ea881c636d768bcd768dcffc0935390290dd62ead24d1260746276394128",
+          "bytes": 1203123
+        },
+        "material": {
+          "file": "assets/saga/act2_ground_war-hd-r1-material.mp4",
+          "sha256": "f79754281bd890bd49508ce91100f3cce9ca5aee05d18b9cf403e30b58467fef",
+          "bytes": 4090732
+        }
+      },
+      "versions": {
+        "dark-biomech-oil": {
+          "state": "accepted",
+          "file": "assets/saga/act2_ground_war_h3_oil_r3-h3-web.mp4",
+          "sha256": "f5e344dfd586ebd03b39f04de00c2002ec0ca46b4a45678d3c6b121828bea551",
+          "bytes": 11002098,
+          "poster": "assets/saga/act2_ground_war_h3_oil_r3-h3-web-poster.webp",
+          "guideSha256": "67acec0eafdca90d74dd5a48f2f0da03e18cb0b558dba394749a2667960b0451",
+          "styleId": "dark-biomech-oil",
+          "fps": 24,
+          "frameCount": 345,
+          "firstPts": 0,
+          "duration": 14.375,
+          "audio": true,
+          "approval": {
+            "state": "accepted",
+            "receiptSha256": "c9f83981943b06b947c1506545af06b6265aed610761d84381928060b9c7ef05"
+          },
+          "technicalReceipt": {
+            "sha256": "764766d4f1b021d6f22dae80dec39a634ae9866690f46d31dbfb0da0fb34fbae",
+            "bytes": 39786
+          },
+          "note": "H3 rendition. Alien elements use dark biomechanical oil colours; human ships and machinery retain industrial science-fiction designs."
+        }
+      },
+      "faction": "mixed",
+      "styleLabel": "Biomechanical oil / Industrial sci-fi",
+      "styleDirection": "Dark fantasy and biomechanical oil surfaces on alien elements; preserve white/gray/graphite industrial sci-fi machinery on human elements."
+    },
+    "act3_fleet_battle": {
+      "guideSha256": "174296e19fc635c13f75552c15e41c92bed84e66c2d4b16077dc786fbd688d53",
+      "controls": {
+        "gray": {
+          "file": "assets/saga/act3_fleet_battle-h3-guide-gray.mp4",
+          "sha256": "0431aa6d14d9ae9298fe462c11ad94bc1551a230472fbadab522f415b60d1c5f",
+          "bytes": 814290
+        },
+        "material": {
+          "file": "assets/saga/act3_fleet_battle-hd-r1-material.mp4",
+          "sha256": "6e5bdd7ef969ada89edec2f5172c120e02c9664962ba0e3e4a3afe5afafb96cb",
+          "bytes": 3627271
+        }
+      },
+      "versions": {
+        "dark-biomech-oil": {
+          "state": "accepted",
+          "file": "assets/saga/act3_fleet_battle_h3_oil_r4-h3-web.mp4",
+          "sha256": "6dd7d348bc295ae84589be6e60cfec3ed5f042d4f2fe84adea82cdd8b6279bf1",
+          "bytes": 11013720,
+          "poster": "assets/saga/act3_fleet_battle_h3_oil_r4-h3-web-poster.webp",
+          "guideSha256": "174296e19fc635c13f75552c15e41c92bed84e66c2d4b16077dc786fbd688d53",
+          "styleId": "dark-biomech-oil",
+          "fps": 24,
+          "frameCount": 345,
+          "firstPts": 0,
+          "duration": 14.375,
+          "audio": true,
+          "approval": {
+            "state": "accepted",
+            "receiptSha256": "54baa64e911b2e11cab7b27df104b617bd869c90bd419f4f48696f5c52c62c67"
+          },
+          "technicalReceipt": {
+            "sha256": "b2ffb1494b2072bd60293b8b05288f3c82aa417413e4b1ec6516e446bf205283",
+            "bytes": 39892
+          },
+          "note": "H3 rendition. Alien elements use dark biomechanical oil colours; human ships and machinery retain industrial science-fiction designs."
+        }
+      },
+      "faction": "mixed",
+      "styleLabel": "Biomechanical oil / Industrial sci-fi",
+      "styleDirection": "Dark fantasy and biomechanical oil surfaces on alien elements; preserve white/gray/graphite industrial sci-fi machinery on human elements."
+    },
+    "act4_carrier_strike": {
+      "guideSha256": "46caca911a83ad9dd6248e4014fc90b511781b8bb94e83ea52a1cc6bb7a619e1",
+      "controls": {
+        "gray": {
+          "file": "assets/saga/act4_carrier_strike-h3-guide-gray.mp4",
+          "sha256": "b42720b676c8a8713c56a8c803d9724b0fa740bcb76b3161c044267ab88cf55f",
+          "bytes": 815881
+        },
+        "material": {
+          "file": "assets/saga/act4_carrier_strike-hd-r1-material.mp4",
+          "sha256": "1f0e56ee2ab0445fb031f472050fa5de69a6e4b45c3c5cd09da96022da1b69bd",
+          "bytes": 3322147
+        }
+      },
+      "versions": {
+        "dark-biomech-oil": {
+          "state": "accepted",
+          "file": "assets/saga/act4_carrier_strike_h3_oil_r3-h3-web.mp4",
+          "sha256": "4de128003fd2e11a5217cadf92583a316782ce2ff3f21f7dda6e351a132eabaa",
+          "bytes": 11023803,
+          "poster": "assets/saga/act4_carrier_strike_h3_oil_r3-h3-web-poster.webp",
+          "guideSha256": "46caca911a83ad9dd6248e4014fc90b511781b8bb94e83ea52a1cc6bb7a619e1",
+          "styleId": "dark-biomech-oil",
+          "fps": 24,
+          "frameCount": 345,
+          "firstPts": 0,
+          "duration": 14.375,
+          "audio": true,
+          "approval": {
+            "state": "accepted",
+            "receiptSha256": "0b9e4b70c356e0260744d314093d31ecb6960fa35f567c7030301fbc39f05bab"
+          },
+          "technicalReceipt": {
+            "sha256": "6a4fd03c51ac2208a7e437e9b0886e139ad1c4116736c4406fcdc076bbee2d13",
+            "bytes": 39917
+          },
+          "note": "H3 rendition. Alien elements use dark biomechanical oil colours; human ships and machinery retain industrial science-fiction designs."
+        }
+      },
+      "faction": "mixed",
+      "styleLabel": "Biomechanical oil / Industrial sci-fi",
+      "styleDirection": "Dark fantasy and biomechanical oil surfaces on alien elements; preserve white/gray/graphite industrial sci-fi machinery on human elements."
+    },
+    "act10_exodus": {
+      "guideSha256": "b0a61c2f07fe706fc386726b40810b0f47c2b0d9cc59aabeb65e134fb42fc28a",
+      "controls": {
+        "gray": {
+          "file": "assets/saga/act10_exodus-h3-guide-gray.mp4",
+          "sha256": "e24bb741ee3cf755fc66b31ce6c8a81af16b5d56bcf1ff32e2456fefcd069815",
+          "bytes": 548473
+        },
+        "material": {
+          "file": "assets/saga/act10_exodus-hd-r1-material.mp4",
+          "sha256": "4bc6b41eb635df9bb7fe0fa3c5c42c789bf833faa49c8ec17aac3347bb8b961a",
+          "bytes": 2775030
+        }
+      },
+      "versions": {
+        "dark-biomech-oil": {
+          "state": "accepted",
+          "file": "assets/saga/act10_exodus_h3_oil_r3-h3-web.mp4",
+          "sha256": "ca9e66806c54eb7a76c47274587ec2215de068ffc104df87e02b1639fcbfd9fc",
+          "bytes": 10972958,
+          "poster": "assets/saga/act10_exodus_h3_oil_r3-h3-web-poster.webp",
+          "guideSha256": "b0a61c2f07fe706fc386726b40810b0f47c2b0d9cc59aabeb65e134fb42fc28a",
+          "styleId": "dark-biomech-oil",
+          "fps": 24,
+          "frameCount": 345,
+          "firstPts": 0,
+          "duration": 14.375,
+          "audio": true,
+          "approval": {
+            "state": "accepted",
+            "receiptSha256": "859eea56c8b1af66aeade935fb0eb064897db74b8dc2597c3bf214484fc14e77"
+          },
+          "technicalReceipt": {
+            "sha256": "02654f2fb7170f14c85510f9868a7e8360c3113c6b2e5a436c0b14b9622585cd",
+            "bytes": 39898
+          },
+          "note": "H3 rendition. Alien elements use dark biomechanical oil colours; human ships and machinery retain industrial science-fiction designs."
+        }
+      },
+      "faction": "mixed",
+      "styleLabel": "Biomechanical oil / Industrial sci-fi",
+      "styleDirection": "Dark fantasy and biomechanical oil surfaces on alien elements; preserve white/gray/graphite industrial sci-fi machinery on human elements."
+    },
+    "act5_shipyard_sortie": {
+      "guideSha256": "4cc9ee0cab60dd9d7cc84866722996cc21b9ee286dffbb92f17eec102f3d9d08",
+      "controls": {
+        "gray": {
+          "file": "assets/saga/act5_shipyard_sortie-h3-guide-gray.mp4",
+          "sha256": "0a23f57a9c7f867663160cafcf190efeda89b2d9fe319de3f2b45f94d5ac4a0c",
+          "bytes": 756254
+        },
+        "material": {
+          "file": "assets/saga/act5_shipyard_sortie-hd-r1-material.mp4",
+          "sha256": "5a826eaf1200ec4c7f2d1aeb163ff28d22ca9b5d05d06095a492e8e7cd92c5a8",
+          "bytes": 3047822
+        }
+      },
+      "versions": {
+        "dark-biomech-oil": {
+          "state": "accepted",
+          "file": "assets/saga/act5_shipyard_sortie_h3_oil_r1-h3-web.mp4",
+          "sha256": "0b932cada9e55dccf14ed61f15a55e24e9512fe7cb10548d1c05044734961277",
+          "bytes": 11065791,
+          "poster": "assets/saga/act5_shipyard_sortie_h3_oil_r1-h3-web-poster.webp",
+          "guideSha256": "4cc9ee0cab60dd9d7cc84866722996cc21b9ee286dffbb92f17eec102f3d9d08",
+          "styleId": "dark-biomech-oil",
+          "fps": 24,
+          "frameCount": 345,
+          "firstPts": 0,
+          "duration": 14.375,
+          "audio": true,
+          "approval": {
+            "state": "accepted",
+            "receiptSha256": "452fb9243387f11f59892aff4a167c68f6707e37ced3e6bdc5f9049bb6c1e896"
+          },
+          "technicalReceipt": {
+            "sha256": "94a15312d59b07082af248d5f3d5e40263ecc1d39f986bf4a1a83a6c6ad5892c",
+            "bytes": 39869
+          },
+          "note": "H3 rendition. Human ships and shipyard machinery retain industrial science-fiction designs."
+        }
+      },
+      "faction": "human",
+      "styleLabel": "Industrial sci-fi",
+      "styleDirection": "White, gray and graphite manufactured machines; retain industrial sci-fi hulls and mechanisms."
+    },
+    "act6_dyson_siege": {
+      "guideSha256": "a4cc3d325a5c46e2b475baecd312b69b2acafd889ac22c23157c8be9f556be4a",
+      "controls": {
+        "gray": {
+          "file": "assets/saga/act6_dyson_siege-h3-guide-gray.mp4",
+          "sha256": "670fcc02adae3e555757ecd3adacdbedce6f4add9ab4e843e9959b1c14b9324b",
+          "bytes": 1451914
+        },
+        "material": {
+          "file": "assets/saga/act6_dyson_siege-hd-r1-material.mp4",
+          "sha256": "850ed6d257486f4646f2b56e68a39756df8aef319827d551216591682894e7c8",
+          "bytes": 7305564
+        }
+      },
+      "versions": {
+        "dark-biomech-oil": {
+          "state": "accepted",
+          "file": "assets/saga/act6_dyson_siege_h3_oil_r3-h3-web.mp4",
+          "sha256": "ecb6cacd944db531fa499bbe4c73541e680d0895e7f0ab3b45b58b310716002e",
+          "bytes": 10854729,
+          "poster": "assets/saga/act6_dyson_siege_h3_oil_r3-h3-web-poster.webp",
+          "guideSha256": "a4cc3d325a5c46e2b475baecd312b69b2acafd889ac22c23157c8be9f556be4a",
+          "styleId": "dark-biomech-oil",
+          "fps": 24,
+          "frameCount": 345,
+          "firstPts": 0,
+          "duration": 14.375,
+          "audio": true,
+          "approval": {
+            "state": "accepted",
+            "receiptSha256": "d69593828e12e94c88623ce67056f9ac2064bfc74ede14c9b22cd52a88bec376"
+          },
+          "technicalReceipt": {
+            "sha256": "4a5bfdf715570919ac4f93543330268d8c93a2780f137f022308d49aae1577b3",
+            "bytes": 39810
+          },
+          "note": "H3 rendition. Alien elements use dark biomechanical oil colours; human ships and machinery retain industrial science-fiction designs."
+        }
+      },
+      "faction": "mixed",
+      "styleLabel": "Biomechanical oil / Industrial sci-fi",
+      "styleDirection": "Dark fantasy and biomechanical oil surfaces on alien elements; preserve white/gray/graphite industrial sci-fi machinery on human elements."
+    },
+    "act12_new_dawn": {
+      "guideSha256": "b4a118666237c58c63a6d022d223436b160cd5cdb3c3898b3e78f6c945a21e2f",
+      "controls": {
+        "gray": {
+          "file": "assets/saga/act12_new_dawn-h3-guide-gray.mp4",
+          "sha256": "d76148df2d0286f558b9eba67fb5160fadc5141567c2c3040ef7b0422a1ac262",
+          "bytes": 1064799
+        },
+        "material": {
+          "file": "assets/saga/act12_new_dawn-hd-r1-material.mp4",
+          "sha256": "89cae41cf4c34b0a05f974d322d444e65348d62ba61e4cf15f315f6257ade9c5",
+          "bytes": 3672786
+        }
+      },
+      "versions": {
+        "dark-biomech-oil": {
+          "state": "accepted",
+          "file": "assets/saga/act12_new_dawn_h3_oil_r2-h3-web.mp4",
+          "sha256": "6f5898f437a957061d606e362d2984e2659b2d7c9c7956d7440c38a02576f0f3",
+          "bytes": 11013918,
+          "poster": "assets/saga/act12_new_dawn_h3_oil_r2-h3-web-poster.webp",
+          "guideSha256": "b4a118666237c58c63a6d022d223436b160cd5cdb3c3898b3e78f6c945a21e2f",
+          "styleId": "dark-biomech-oil",
+          "fps": 24,
+          "frameCount": 345,
+          "firstPts": 0,
+          "duration": 14.375,
+          "audio": true,
+          "approval": {
+            "state": "accepted",
+            "receiptSha256": "a82e208d6c2b7f76ae2c4c064f23825d9dab70c18d4b1b740ca18fc2e57f72bf"
+          },
+          "technicalReceipt": {
+            "sha256": "58502a44d1ec6c0df43b56ead3f159281c5b5dfe484887c2a1c958f997fe1793",
+            "bytes": 39903
+          },
+          "note": "H3 rendition. Human orbital station assembly retains industrial science-fiction designs."
+        }
+      },
+      "faction": "human",
+      "styleLabel": "Industrial sci-fi",
+      "styleDirection": "White, gray and graphite manufactured machines; retain industrial sci-fi hulls and mechanisms."
+    }
+  },
+  "reviewState": "ROOT_EXACT_ALL12_NATIVE_WEB_MANIFEST_ACCEPTED_LOCAL_PLAYER_QA_PENDING_NOT_PUBLISHED",
+  "updatedUtc": "2026-10-11T01:25:20.311651+00:00",
+  "localReviewCandidate": {
+    "rootExactManifestRelease": true,
+    "actualPlayerQaPassed": false,
+    "rootVisualAcceptedActs": [
+      "act1_station_siege",
+      "act2_ground_war",
+      "act3_fleet_battle",
+      "act4_carrier_strike",
+      "act5_shipyard_sortie",
+      "act6_dyson_siege",
+      "act7_moon_base",
+      "act8_pirate_ambush",
+      "act9_hive_awakens",
+      "act10_exodus",
+      "act11_first_contact",
+      "act12_new_dawn"
+    ],
+    "rootVisualAcceptedCount": 12,
+    "pendingCount": 0,
+    "all12IndividualFilmsAccepted": true,
+    "wholeManifestRootAccepted": true,
+    "sourcePlan": {
+      "sha256": "25cbb8a00ebec4c413f0b0a1a98fa4aad8a47b3ace29b00579701ecc51aba52b",
+      "bytes": 28315
+    },
+    "previousSealedPartialManifest": {
+      "sha256": "b43a9cd2098193170672c9334ccc7d035d0a10e8c6d575d815e76af6a27a4b2e",
+      "bytes": 18442
+    },
+    "previousSealedPartialInput": {
+      "sha256": "73b9f2a2641e6fc654699d2541944f186320cc4845d37246782d6471a96a0275",
+      "bytes": 6197
+    },
+    "pageOverride": {
+      "state": "EXACT_ROOT_APPROVED_ACT12_WORDING_VALIDATED_NOT_FILM_ACCEPTANCE",
+      "receipt": {
+        "sha256": "65bbc07e377fdbfa6355bc667099650d4bc918432414cf48f72ed79ed69405d8",
+        "bytes": 3906
+      },
+      "rootReview": {
+        "sha256": "66b5f397bf69b0a0f6c297b44a29843c549759b5731807117143f370ad73d81a",
+        "bytes": 2939
+      },
+      "targetRelativePath": "saga-scenes.js",
+      "source": {
+        "sha256": "32cf712e510d82fd2ad0eae34bff3ff7520513436dcd2e45ad55aa9305ef94e4",
+        "bytes": 23616
+      },
+      "historicalSealedSource": {
+        "sha256": "973f0623da1c204dddc2ecaaa663bac92f30c92c9124c06fa8f21483a6380190",
+        "bytes": 23538
+      },
+      "expectedOriginal": {
+        "sha256": "1a5960d3ee53a826e49019dfdbec767f6f831252d7c4d222f9de54ebd53c9e90",
+        "bytes": 20074
+      },
+      "sourceDiff": {
+        "sha256": "59625adb87ebb615626ed9a5bca56d72a9e48cad8c569b04386de7bcd99733d6",
+        "bytes": 1826
+      },
+      "exactTextSubstitutions": 1,
+      "h3FilmQualityAccepted": false,
+      "nativeFilesWritten": false,
+      "historicalSevenFilesEdited": false,
+      "published": false
+    },
+    "published": false
+  },
+  "published": false,
+  "rootReviewedCandidate": {
+    "sha256": "8d2514b1f8cee95496e38dde7b9ecb51c5a0a4a3765a5c348be9da78511776ef",
+    "bytes": 28387
+  }
+}

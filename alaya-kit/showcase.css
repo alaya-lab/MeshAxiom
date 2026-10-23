@@ -1,0 +1,18 @@
+.library-showcase .showcase-group { margin: 2.2rem 0 1rem; font-size: 1.05rem; font-weight: 600; letter-spacing: .01em; color: var(--text, #e8e8ea); }
+.library-showcase .showcase-group:first-of-type { margin-top: 1.2rem; }
+.showcase-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 18px; }
+.showcase-grid.is-assembly, .showcase-grid.is-scene { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.showcase-card { display: flex; flex-direction: column; border: 1px solid rgba(255, 255, 255, .09); border-radius: 14px; background: rgba(12, 14, 18, .72); overflow: hidden; }
+.showcase-stage { position: relative; aspect-ratio: 16 / 9; background: #05070a; }
+.showcase-stage video { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; opacity: 0; transition: opacity .25s ease; }
+.showcase-card[data-mode="material"] video[data-mode="material"], .showcase-card[data-mode="gray"] video[data-mode="gray"] { opacity: 1; }
+.showcase-title { display: flex; align-items: center; gap: 10px; min-width: 0; flex: 1 1 12rem; }
+.showcase-input { width: 54px; height: 36px; object-fit: cover; border-radius: 6px; border: 1px solid rgba(255, 255, 255, .22); background: #1a1c20; flex-shrink: 0; }
+.showcase-card header { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 8px 10px; padding: 12px 14px 4px; }
+.showcase-card h4 { margin: 0; font: 600 .98rem/1.3 var(--sans, Inter, Arial, sans-serif); letter-spacing: -.005em; }
+.showcase-card [role="group"] { display: inline-flex; gap: 4px; flex-shrink: 0; }
+.showcase-card [data-showcase-mode] { font: 500 .74rem/1.2 var(--sans, Inter, Arial, sans-serif); padding: 5px 10px; border-radius: 999px; border: 1px solid rgba(255, 255, 255, .16); background: transparent; color: rgba(255, 255, 255, .72); cursor: pointer; }
+.showcase-card [data-showcase-mode][aria-pressed="true"] { background: rgba(255, 255, 255, .12); color: #fff; border-color: rgba(255, 255, 255, .34); }
+.showcase-card p { margin: 0; padding: 4px 14px 14px; font-size: .82rem; line-height: 1.45; color: rgba(255, 255, 255, .66); }
+@media (max-width: 1080px) { .showcase-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 720px) { .showcase-grid, .showcase-grid.is-assembly, .showcase-grid.is-scene { grid-template-columns: minmax(0, 1fr); } }

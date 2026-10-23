@@ -1,0 +1,47 @@
+[
+ {
+  "key": "void_leviathan",
+  "faces": 12476,
+  "bytes": 335692
+ },
+ {
+  "key": "star_kraken",
+  "faces": 8842,
+  "bytes": 489932
+ },
+ {
+  "key": "void_manta",
+  "faces": 11068,
+  "bytes": 283292
+ },
+ {
+  "key": "hive_mother",
+  "faces": 9118,
+  "bytes": 272584
+ },
+ {
+  "key": "swarm_hunter",
+  "faces": 8622,
+  "bytes": 356100
+ },
+ {
+  "key": "crystal_behemoth",
+  "faces": 12874,
+  "bytes": 362208
+ },
+ {
+  "key": "void_serpent",
+  "faces": 13464,
+  "bytes": 342060
+ },
+ {
+  "key": "titan_colossus",
+  "faces": 13530,
+  "bytes": 418168
+ },
+ {
+  "key": "eye_titan",
+  "faces": 7892,
+  "bytes": 418052
+ }
+]

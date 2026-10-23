@@ -1,0 +1,218 @@
+[
+  {
+    "code": "UE01",
+    "label": "Vespa-style scooter",
+    "category": "vehicle",
+    "mesh": "ue01-mesh.json",
+    "faceCount": 19659,
+    "gtFaceCount": 16606,
+    "vertexCount": 9981,
+    "seed": 2026082301,
+    "upAxis": "z",
+    "frontAxis": "x",
+    "facesOriented": false,
+    "camera": {
+      "position": [
+        3.71541,
+        0.92636,
+        2.30079
+      ],
+      "fov": 25.176,
+      "azimuth": 14.0,
+      "elevation": 31.0
+    },
+    "description": "Scooter: wheels, handlebar, seat, stand and multiple attached mechanical parts.",
+    "input": "ue01-input.webp",
+    "gt": "ue01-gt.webp",
+    "ours": "ue01-ours.webp"
+  },
+  {
+    "code": "UE04",
+    "label": "Horse",
+    "category": "creature",
+    "mesh": "ue04-mesh.json",
+    "faceCount": 10321,
+    "gtFaceCount": 8769,
+    "vertexCount": 5422,
+    "seed": 2026082301,
+    "upAxis": "z",
+    "frontAxis": "x",
+    "facesOriented": false,
+    "camera": {
+      "position": [
+        5.73889,
+        -0.4013,
+        3.05887
+      ],
+      "fov": 19.488,
+      "azimuth": -4.0,
+      "elevation": 28.0
+    },
+    "description": "Horse: organic shape with thin legs, ears, muzzle and tail.",
+    "input": "ue04-input.webp",
+    "gt": "ue04-gt.webp",
+    "ours": "ue04-ours.webp"
+  },
+  {
+    "code": "UE05",
+    "label": "Monkey figure",
+    "category": "character",
+    "mesh": "ue05-mesh.json",
+    "faceCount": 19782,
+    "gtFaceCount": 18080,
+    "vertexCount": 9928,
+    "seed": 1234,
+    "upAxis": "z",
+    "frontAxis": "x",
+    "facesOriented": false,
+    "camera": {
+      "position": [
+        2.21051,
+        -1.60603,
+        0.78349
+      ],
+      "fov": 40.805,
+      "azimuth": -36.0,
+      "elevation": 16.0
+    },
+    "description": "Monkey figure: face, ears, hands and distinct articulated body parts.",
+    "input": "ue05-input.webp",
+    "gt": "ue05-gt.webp",
+    "ours": "ue05-ours.webp"
+  },
+  {
+    "code": "UE16",
+    "label": "Fire hydrant",
+    "category": "prop",
+    "mesh": "ue16-mesh.json",
+    "faceCount": 7874,
+    "gtFaceCount": 6410,
+    "vertexCount": 3967,
+    "seed": 2026082301,
+    "upAxis": "z",
+    "frontAxis": "x",
+    "facesOriented": false,
+    "camera": {
+      "position": [
+        3.19227,
+        -0.97597,
+        1.48623
+      ],
+      "fov": 31.75,
+      "azimuth": -17.0,
+      "elevation": 24.0
+    },
+    "description": "Hydrant: side fittings, caps, flange changes and thin chains.",
+    "input": "ue16-input.webp",
+    "gt": "ue16-gt.webp",
+    "ours": "ue16-ours.webp"
+  },
+  {
+    "code": "UE21",
+    "label": "Gargoyle statue",
+    "category": "creature",
+    "mesh": "ue21-mesh.json",
+    "faceCount": 13328,
+    "gtFaceCount": 12454,
+    "vertexCount": 6680,
+    "seed": 1234,
+    "upAxis": "z",
+    "frontAxis": "x",
+    "facesOriented": false,
+    "camera": {
+      "position": [
+        3.00884,
+        -0.10507,
+        1.66884
+      ],
+      "fov": 36.854,
+      "azimuth": -2.0,
+      "elevation": 29.0
+    },
+    "description": "Gargoyle: irregular sculpted shape, claws, thin limbs and curved tail.",
+    "input": "ue21-input.webp",
+    "gt": "ue21-gt.webp",
+    "ours": "ue21-ours.webp"
+  },
+  {
+    "code": "UE23",
+    "label": "Rearing horse",
+    "category": "creature",
+    "mesh": "ue23-mesh.json",
+    "faceCount": 9945,
+    "gtFaceCount": 8542,
+    "vertexCount": 4973,
+    "seed": 7,
+    "upAxis": "z",
+    "frontAxis": "x",
+    "facesOriented": false,
+    "camera": {
+      "position": [
+        3.61493,
+        -0.25278,
+        1.0391
+      ],
+      "fov": 34.177,
+      "azimuth": -4.0,
+      "elevation": 16.0
+    },
+    "description": "Rearing horse: raised limbs, mane and a narrow support connection to the base.",
+    "input": "ue23-input.webp",
+    "gt": "ue23-gt.webp",
+    "ours": "ue23-ours.webp"
+  },
+  {
+    "code": "UE28",
+    "label": "Assault rifle",
+    "category": "weapon",
+    "mesh": "ue28-mesh.json",
+    "faceCount": 17115,
+    "gtFaceCount": 13690,
+    "vertexCount": 8836,
+    "seed": 7,
+    "upAxis": "z",
+    "frontAxis": "x",
+    "facesOriented": false,
+    "camera": {
+      "position": [
+        3.41569,
+        -2.96922,
+        1.29776
+      ],
+      "fov": 18.717,
+      "azimuth": -41.0,
+      "elevation": 16.0
+    },
+    "description": "Rifle: long thin barrel, stock openings, trigger region and separate magazine.",
+    "input": "ue28-input.webp",
+    "gt": "ue28-gt.webp",
+    "ours": "ue28-ours.webp"
+  },
+  {
+    "code": "UE29",
+    "label": "Rococo armchair",
+    "category": "furniture",
+    "mesh": "ue29-mesh.json",
+    "faceCount": 11576,
+    "gtFaceCount": 11190,
+    "vertexCount": 5823,
+    "seed": 1234,
+    "upAxis": "z",
+    "frontAxis": "x",
+    "facesOriented": false,
+    "camera": {
+      "position": [
+        3.25927,
+        -1.12226,
+        1.60739
+      ],
+      "fov": 36.054,
+      "azimuth": -19.0,
+      "elevation": 25.0
+    },
+    "description": "Rococo chair: curved slender legs, arm supports and negative spaces.",
+    "input": "ue29-input.webp",
+    "gt": "ue29-gt.webp",
+    "ours": "ue29-ours.webp"
+  }
+]

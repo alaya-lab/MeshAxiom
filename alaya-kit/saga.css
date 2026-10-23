@@ -1,0 +1,26 @@
+/* Six-act page: the shared three-stage player's controls (styles.css keys them by #workflow-* ids). */
+#saga-chapters{display:flex;flex-wrap:wrap;gap:7px}
+#saga-chapters button{padding:8px 10px;border:1px solid #ffffff12;border-radius:5px;color:#8f9bad;background:#ffffff02;font:10px/1.3 var(--sans)}
+#saga-chapters button:hover{color:#fff;border-color:#ffffff40}
+#saga-chapters button[aria-pressed=true]{color:#f2f4f8;border-color:#7b879b;background:#ffffff09}
+#saga-time{font:10px var(--mono);color:#a6b3c7;font-variant-numeric:tabular-nums;white-space:nowrap}
+#saga-audio{font-size:9px;min-height:30px;padding:7px 10px;margin-left:auto}
+#saga-timeline{display:block;width:100%;height:5px;accent-color:#d4deed;cursor:pointer;margin:0}
+#saga-timeline:focus-visible{outline:2px solid white;outline-offset:7px}
+#saga-panel{scroll-margin-top:90px}
+.saga-page .library-hero{padding-bottom:28px}
+@media(max-width:550px){#saga-chapters{gap:6px}#saga-chapters button{font-size:10px;padding:9px 10px}#saga-time{font-size:9px}}
+/* Trailer at the top of the page: a muted preview loop; "Watch with sound" restarts it with sound and controls. */
+.saga-trailer{padding:94px 30px 0}
+.saga-trailer-frame{position:relative;max-width:var(--max);margin:0 auto;aspect-ratio:1344/640;border-radius:14px;overflow:hidden;background:#000;border:1px solid #ffffff14;box-shadow:0 30px 90px #0009}
+.saga-trailer-frame video{display:block;width:100%;height:100%;object-fit:cover}
+.saga-trailer-frame::after{content:"";position:absolute;inset:auto 0 0;height:32%;background:linear-gradient(#0000,#000b);pointer-events:none;transition:opacity .4s}
+.saga-trailer-bar{position:absolute;left:22px;right:22px;bottom:18px;z-index:2;display:flex;align-items:center;gap:18px;transition:opacity .4s}
+.saga-trailer-frame.with-sound::after,.saga-trailer-frame.with-sound .saga-trailer-bar{opacity:0;pointer-events:none}
+.saga-trailer-label{font:10px/1.2 var(--mono);letter-spacing:.18em;text-transform:uppercase;color:#cfd6e2}
+#saga-trailer-sound{display:inline-flex;align-items:center;gap:10px;min-height:42px;padding:10px 19px;border-radius:999px;border:1px solid #ffffff59;background:#0a0a0ca6;backdrop-filter:blur(10px);color:#fff;font:600 13px var(--sans);cursor:pointer}
+#saga-trailer-sound:hover{background:#f0f0f4;color:#0a0a0c}
+#saga-trailer-sound:focus-visible{outline:2px solid #fff;outline-offset:3px}
+#saga-trailer-sound span{font-size:10px}
+.saga-page .saga-trailer + .library-hero{padding-top:58px}
+@media(max-width:550px){.saga-trailer{padding:82px 18px 0}.saga-trailer-frame{border-radius:10px}.saga-trailer-bar{left:12px;right:12px;bottom:10px}#saga-trailer-sound{min-height:36px;padding:8px 14px;font-size:12px}.saga-trailer-label{display:none}.saga-page .saga-trailer + .library-hero{padding-top:34px}}

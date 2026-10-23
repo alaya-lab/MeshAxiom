@@ -1,0 +1,36 @@
+/* Space-game asset library page (space-kit.html). Shares the kit card styles in space-feature.css. */
+.library-hero{padding:150px 30px 40px}
+.library-hero h1{font-size:clamp(40px,6vw,76px);line-height:1.05;letter-spacing:-.04em;font-weight:500;margin:18px 0 0}
+.library-hero .lead{max-width:640px;margin-top:26px}
+.library-stats{display:flex;gap:38px;margin-top:34px}
+.library-stats div{display:flex;flex-direction:column-reverse;gap:4px}
+.library-stats dt{font:9px/1.5 var(--mono);letter-spacing:.12em;text-transform:uppercase;color:#6f7d92}
+.library-stats dd{margin:0;font:500 30px/1 var(--sans);color:#e6edf8}
+.library-assemblies{padding-top:40px}
+.kit-assembly-note{font:12px/1.6 var(--serif);color:#7d8aa0;padding:0 18px 12px;margin:0}
+.library-grid-section{padding-top:30px}
+.library-filters{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 20px}
+.library-filters button{font:11px/1.5 var(--sans);padding:8px 13px;border:1px solid #ffffff17;border-radius:30px;color:#8e9db3;background:#ffffff03;min-height:34px}
+.library-filters button:hover{color:#e6eef9;border-color:#ffffff35}
+.library-filters button[aria-pressed=true]{color:#0b0c10;background:#dfe7f2;border-color:#dfe7f2}
+#library-grid .space-model-card[hidden]{display:none}
+@media(max-width:550px){.library-hero{padding:110px 18px 24px}.library-stats{gap:26px}.library-stats dd{font-size:24px}.library-filters{gap:6px}.library-filters button{font-size:10px;padding:7px 10px}}
+
+/* Keep the four explicit image/mesh modes readable on phones. */
+#library-grid .space-model-modes{flex-wrap:wrap;gap:3px;padding:8px 6px}
+#library-grid .space-model-modes>button{padding:7px 8px;min-height:36px}
+#library-grid .space-model-card[data-mode=topology] .space-model-viewport:not(.ready)>img,
+#library-grid .space-model-card[data-mode=gray] .space-model-viewport:not(.ready)>img{visibility:hidden}
+.kit-assembly-card[data-appearance=topology] .station-viewport:not(.ready)>img{visibility:hidden}
+
+/* The library keeps matching inspection and download actions at either edge. */
+#library-grid .space-model-tools>[data-inspect-large],
+#library-grid .space-model-tools>.hd-model-download,
+.inspect-content .space-model-tools>.hd-model-download{border:1px solid #384555;border-radius:5px;background:#172131;color:#dbeaff;font:11px var(--sans,sans-serif);padding:5px 9px;min-height:29px;display:inline-flex;align-items:center;text-decoration:none;cursor:pointer}
+#library-grid .space-model-tools>[data-inspect-large]:hover,
+#library-grid .space-model-tools>.hd-model-download:hover,
+.inspect-content .space-model-tools>.hd-model-download:hover{color:white;background:#1d2b3e}
+#library-grid .space-model-tools>.hd-model-download:focus-visible,
+.inspect-content .space-model-tools>.hd-model-download:focus-visible{outline:2px solid #90c7ff;outline-offset:2px}
+#library-grid .space-model-tools>.hd-model-download[aria-busy=true],
+.inspect-content .space-model-tools>.hd-model-download[aria-busy=true]{opacity:.6;cursor:wait}

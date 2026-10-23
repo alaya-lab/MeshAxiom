@@ -1,0 +1,216 @@
+[
+  {
+    "id": "tt_v4_pirate_gunship",
+    "title": "Pirate gunship",
+    "kind": "turntable",
+    "caption": "Generated geometry + materials: 9,392 triangles. Compare the wireframe and material passes of the same selected camera sweep.",
+    "gray": "tt_v4_pirate_gunship_wire.mp4",
+    "material": "tt_v4_pirate_gunship_hd_r1_material.mp4",
+    "poster": "tt_v4_pirate_gunship_hd_r1_poster.webp",
+    "seconds": 5,
+    "assets": [
+      "pirate_gunship"
+    ],
+    "input_image": "tt_v4_pirate_gunship_input.webp"
+  },
+  {
+    "id": "tt_v4_scout_drone",
+    "title": "Scout drone",
+    "kind": "turntable",
+    "caption": "Generated geometry + materials: 4,838 triangles. Compare the wireframe and material passes of the same selected camera sweep.",
+    "gray": "tt_v4_scout_drone_wire.mp4",
+    "material": "tt_v4_scout_drone_hd_r1_material.mp4",
+    "poster": "tt_v4_scout_drone_hd_r1_poster.webp",
+    "seconds": 5,
+    "assets": [
+      "scout_drone"
+    ],
+    "input_image": "tt_v4_scout_drone_input.webp"
+  },
+  {
+    "id": "tt_v4_heavy_gunner",
+    "title": "Heavy gunner",
+    "kind": "turntable",
+    "caption": "Generated geometry + materials: 8,116 triangles. Compare the wireframe and material passes of the same selected camera sweep.",
+    "gray": "tt_v4_heavy_gunner_wire.mp4",
+    "material": "tt_v4_heavy_gunner_hd_r1_material.mp4",
+    "poster": "tt_v4_heavy_gunner_hd_r1_poster.webp",
+    "seconds": 5,
+    "assets": [
+      "heavy_gunner"
+    ],
+    "input_image": "tt_v4_heavy_gunner_input.webp"
+  },
+  {
+    "id": "tt_v4_mining_drone",
+    "title": "Mining drone",
+    "kind": "turntable",
+    "caption": "Generated geometry + materials: 7,150 triangles. Compare the wireframe and material passes of the same selected camera sweep.",
+    "gray": "tt_v4_mining_drone_wire.mp4",
+    "material": "tt_v4_mining_drone_hd_r1_material.mp4",
+    "poster": "tt_v4_mining_drone_hd_r1_poster.webp",
+    "seconds": 5,
+    "assets": [
+      "mining_drone"
+    ],
+    "input_image": "tt_v4_mining_drone_input.webp"
+  },
+  {
+    "id": "tt_v4_mb_tunnel",
+    "title": "Moon-base tunnel module",
+    "kind": "turntable",
+    "caption": "Generated geometry + materials: 4,668 triangles. Compare the wireframe and material passes of the same selected camera sweep.",
+    "gray": "tt_v4_mb_tunnel_wire.mp4",
+    "material": "tt_v4_mb_tunnel_hd_r1_material.mp4",
+    "poster": "tt_v4_mb_tunnel_hd_r1_poster.webp",
+    "seconds": 5,
+    "assets": [
+      "mb_tunnel"
+    ],
+    "input_image": "tt_v4_mb_tunnel_input.webp"
+  },
+  {
+    "id": "tt_v4_star_kraken",
+    "title": "Star kraken",
+    "kind": "turntable",
+    "caption": "Generated geometry + materials: 8,842 triangles. Compare the wireframe and material passes of the same selected camera sweep.",
+    "gray": "tt_v4_star_kraken_wire.mp4",
+    "material": "tt_v4_star_kraken_hd_r1_material.mp4",
+    "poster": "tt_v4_star_kraken_hd_r1_poster.webp",
+    "seconds": 5,
+    "assets": [
+      "star_kraken"
+    ],
+    "input_image": "tt_v4_star_kraken_input.webp"
+  },
+  {
+    "id": "tt_v4_void_manta",
+    "title": "Void manta",
+    "kind": "turntable",
+    "caption": "Generated geometry + materials: 11,068 triangles. Compare the wireframe and material passes of the same selected camera sweep.",
+    "gray": "tt_v4_void_manta_wire.mp4",
+    "material": "tt_v4_void_manta_hd_r1_material.mp4",
+    "poster": "tt_v4_void_manta_hd_r1_poster.webp",
+    "seconds": 5,
+    "assets": [
+      "void_manta"
+    ],
+    "input_image": "tt_v4_void_manta_input.webp"
+  },
+  {
+    "id": "tt_v4_eye_titan",
+    "title": "Eye titan",
+    "kind": "turntable",
+    "caption": "Generated geometry + materials: 7,892 triangles. Compare the wireframe and material passes of the same selected camera sweep.",
+    "gray": "tt_v4_eye_titan_wire.mp4",
+    "material": "tt_v4_eye_titan_hd_r1_material.mp4",
+    "poster": "tt_v4_eye_titan_hd_r1_poster.webp",
+    "seconds": 5,
+    "assets": [
+      "eye_titan"
+    ],
+    "input_image": "tt_v4_eye_titan_input.webp"
+  },
+  {
+    "id": "asm_shipwright",
+    "title": "Shipwright: one kit, four ships",
+    "kind": "assembly",
+    "caption": "Two cockpit noses, a weapons section, wing sections, engine blocks and a cargo section fly in and snap into an interceptor, a gunship, a hauler and a courier.",
+    "gray": "asm_shipwright_wire.mp4",
+    "material": "asm_shipwright_hd_r1_material.mp4",
+    "poster": "asm_shipwright_hd_r1_poster.webp",
+    "seconds": 7.0,
+    "assets": [
+      "fk_nose_interceptor",
+      "fk_nose_gunship",
+      "fk_weapon_bay",
+      "fk_wing_swept",
+      "fk_wing_delta",
+      "fk_engine_twin",
+      "fk_engine_quad",
+      "fk_cargo_pod"
+    ]
+  },
+  {
+    "id": "asm_v9_station",
+    "title": "Ring station from 17 parts",
+    "kind": "assembly",
+    "caption": "Eight ring segments, four spokes, the core and four docking ports come together into the ring station of our first space film.",
+    "gray": "asm_v9_station_wire.mp4",
+    "material": "asm_v9_station_hd_r1_material.mp4",
+    "poster": "asm_v9_station_hd_r1_poster.webp",
+    "seconds": 7.0,
+    "assets": [
+      "ring_segment",
+      "radial_spoke",
+      "central_core",
+      "docking_port"
+    ]
+  },
+  {
+    "id": "asm_carrier",
+    "title": "Assault carrier",
+    "kind": "assembly",
+    "caption": "Deck, bow, stern, island, turrets and parked fighters lock into the assault carrier.",
+    "gray": "asm_carrier_wire.mp4",
+    "material": "asm_carrier_hd_r1_material.mp4",
+    "poster": "asm_carrier_hd_r1_poster.webp",
+    "seconds": 7.0,
+    "assets": [
+      "carrier_deck",
+      "carrier_bow",
+      "carrier_stern",
+      "carrier_island",
+      "pd_turret",
+      "fighter"
+    ]
+  },
+  {
+    "id": "asm_moon_base",
+    "title": "Moon base",
+    "kind": "assembly",
+    "caption": "Habitat domes, tunnels, greenhouse, reactor, comms tower, landing pad, lander and rover settle onto the lunar ground tile.",
+    "gray": "asm_moon_base_wire.mp4",
+    "material": "asm_moon_base_hd_r1_material.mp4",
+    "poster": "asm_moon_base_hd_r1_poster.webp",
+    "seconds": 7.0,
+    "assets": [
+      "mb_terrain",
+      "mb_dome_habitat",
+      "mb_tunnel",
+      "mb_greenhouse",
+      "mb_reactor",
+      "mb_comms_tower",
+      "mb_landing_pad",
+      "mb_lander",
+      "mb_rover"
+    ]
+  },
+  {
+    "id": "scene_v4_fleet_battle",
+    "title": "Two fleets over a planet",
+    "kind": "scene",
+    "caption": "Generated ships assembled into opposing fleets; motion, lighting, planet and effects are authored.",
+    "gray": null,
+    "material": "scene_v4_fleet_battle_hd_r1_material.mp4",
+    "poster": "scene_v4_fleet_battle_hd_r1_poster.webp",
+    "seconds": 5.5,
+    "assets": []
+  },
+  {
+    "id": "scene_v4_dyson_star",
+    "title": "Dyson array",
+    "kind": "scene",
+    "caption": "Generated collector panels in an authored scene with a lit star and an orange render-only inner lining. This wider view keeps the whole array in frame.",
+    "gray": null,
+    "material": "scene_v4_dyson_star_hd_r1_material.mp4",
+    "poster": "scene_v4_dyson_star_hd_r1_poster.webp",
+    "seconds": 1.5,
+    "assets": [
+      "dyson_panel",
+      "tug_hauler",
+      "mining_drone",
+      "scout_drone"
+    ]
+  }
+]

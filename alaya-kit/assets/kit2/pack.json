@@ -1,0 +1,192 @@
+[
+ {
+  "key": "mining_drone",
+  "faces": 7150,
+  "bytes": 401068
+ },
+ {
+  "key": "tug_hauler",
+  "faces": 6078,
+  "bytes": 380552
+ },
+ {
+  "key": "science_vessel",
+  "faces": 11524,
+  "bytes": 387748
+ },
+ {
+  "key": "escape_pod",
+  "faces": 4912,
+  "bytes": 367632
+ },
+ {
+  "key": "mining_rig",
+  "faces": 12327,
+  "bytes": 800604
+ },
+ {
+  "key": "refinery_module",
+  "faces": 10971,
+  "bytes": 526652
+ },
+ {
+  "key": "shield_generator",
+  "faces": 6333,
+  "bytes": 355108
+ },
+ {
+  "key": "space_mine",
+  "faces": 4614,
+  "bytes": 345248
+ },
+ {
+  "key": "sensor_buoy",
+  "faces": 5307,
+  "bytes": 289144
+ },
+ {
+  "key": "fuel_tank",
+  "faces": 7268,
+  "bytes": 336408
+ },
+ {
+  "key": "astronaut",
+  "faces": 8042,
+  "bytes": 279456
+ },
+ {
+  "key": "mech",
+  "faces": 9608,
+  "bytes": 470984
+ },
+ {
+  "key": "freighter_spine",
+  "faces": 5334,
+  "bytes": 249024
+ },
+ {
+  "key": "freighter_bridge",
+  "faces": 11858,
+  "bytes": 355340
+ },
+ {
+  "key": "freighter_engine",
+  "faces": 10638,
+  "bytes": 576588
+ },
+ {
+  "key": "corvette",
+  "faces": 10916,
+  "bytes": 346108
+ },
+ {
+  "key": "bomber",
+  "faces": 8860,
+  "bytes": 334024
+ },
+ {
+  "key": "scout_drone",
+  "faces": 4838,
+  "bytes": 191984
+ },
+ {
+  "key": "dyson_panel",
+  "faces": 3115,
+  "bytes": 267476
+ },
+ {
+  "key": "ring_habitat_segment",
+  "faces": 9621,
+  "bytes": 319848
+ },
+ {
+  "key": "ring_spoke",
+  "faces": 4926,
+  "bytes": 191852
+ },
+ {
+  "key": "ring_hub",
+  "faces": 11709,
+  "bytes": 535704
+ },
+ {
+  "key": "drydock_gantry",
+  "faces": 10504,
+  "bytes": 433916
+ },
+ {
+  "key": "battleship",
+  "faces": 11576,
+  "bytes": 329896
+ },
+ {
+  "key": "colony_ship",
+  "faces": 16304,
+  "bytes": 488268
+ },
+ {
+  "key": "mod_corridor",
+  "faces": 4474,
+  "bytes": 254180
+ },
+ {
+  "key": "mod_node",
+  "faces": 9410,
+  "bytes": 547524
+ },
+ {
+  "key": "mod_habitat",
+  "faces": 5891,
+  "bytes": 190484
+ },
+ {
+  "key": "mod_solar_wing",
+  "faces": 8209,
+  "bytes": 291796
+ },
+ {
+  "key": "mod_radiator",
+  "faces": 5012,
+  "bytes": 307904
+ },
+ {
+  "key": "mod_hangar",
+  "faces": 9476,
+  "bytes": 476556
+ },
+ {
+  "key": "mod_antenna",
+  "faces": 6494,
+  "bytes": 233828
+ },
+ {
+  "key": "ore_crystal_cluster",
+  "faces": 6316,
+  "bytes": 389376
+ },
+ {
+  "key": "asteroid_ice",
+  "faces": 5968,
+  "bytes": 400864
+ },
+ {
+  "key": "asteroid_metal",
+  "faces": 6094,
+  "bytes": 396520
+ },
+ {
+  "key": "hull_debris",
+  "faces": 6707,
+  "bytes": 337548
+ },
+ {
+  "key": "missile_turret",
+  "faces": 6981,
+  "bytes": 442448
+ },
+ {
+  "key": "railgun_turret",
+  "faces": 7098,
+  "bytes": 318484
+ }
+]

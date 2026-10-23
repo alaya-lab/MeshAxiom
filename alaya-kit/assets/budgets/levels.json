@@ -1,0 +1,92 @@
+[
+  {
+    "targetFaceCount": 500,
+    "faceCount": 695,
+    "vertexCount": 366,
+    "mesh": "hydra-500-mesh.json",
+    "preview": "hydra-500.webp",
+    "camera": {
+      "position": [
+        3.59621,
+        1.45296,
+        -0.40766
+      ],
+      "fov": 36
+    }
+  },
+  {
+    "targetFaceCount": 1000,
+    "faceCount": 1213,
+    "vertexCount": 642,
+    "mesh": "hydra-1000-mesh.json",
+    "preview": "hydra-1000.webp",
+    "camera": {
+      "position": [
+        3.59621,
+        1.45296,
+        -0.40766
+      ],
+      "fov": 36
+    }
+  },
+  {
+    "targetFaceCount": 2000,
+    "faceCount": 2214,
+    "vertexCount": 1119,
+    "mesh": "hydra-2000-mesh.json",
+    "preview": "hydra-2000.webp",
+    "camera": {
+      "position": [
+        3.59621,
+        1.45296,
+        -0.40766
+      ],
+      "fov": 36
+    }
+  },
+  {
+    "targetFaceCount": 4000,
+    "faceCount": 4746,
+    "vertexCount": 2387,
+    "mesh": "hydra-4000-mesh.json",
+    "preview": "hydra-4000.webp",
+    "camera": {
+      "position": [
+        3.59621,
+        1.45296,
+        -0.40766
+      ],
+      "fov": 36
+    }
+  },
+  {
+    "targetFaceCount": 8000,
+    "faceCount": 9161,
+    "vertexCount": 4597,
+    "mesh": "hydra-8000-mesh.json",
+    "preview": "hydra-8000.webp",
+    "camera": {
+      "position": [
+        3.59621,
+        1.45296,
+        -0.40766
+      ],
+      "fov": 36
+    }
+  },
+  {
+    "targetFaceCount": 16000,
+    "faceCount": 18841,
+    "vertexCount": 9433,
+    "mesh": "hydra-16000-mesh.json",
+    "preview": "hydra-16000.webp",
+    "camera": {
+      "position": [
+        3.59621,
+        1.45296,
+        -0.40766
+      ],
+      "fov": 36
+    }
+  }
+]

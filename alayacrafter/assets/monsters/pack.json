@@ -1,0 +1,32 @@
+[
+ {
+  "key": "brood_warrior",
+  "faces": 11068,
+  "bytes": 397052
+ },
+ {
+  "key": "bio_brute",
+  "faces": 10980,
+  "bytes": 479664
+ },
+ {
+  "key": "bio_gunner",
+  "faces": 11330,
+  "bytes": 410864
+ },
+ {
+  "key": "void_stalker",
+  "faces": 10604,
+  "bytes": 373808
+ },
+ {
+  "key": "hive_priest",
+  "faces": 7993,
+  "bytes": 288788
+ },
+ {
+  "key": "hive_lord",
+  "faces": 7860,
+  "bytes": 274016
+ }
+]

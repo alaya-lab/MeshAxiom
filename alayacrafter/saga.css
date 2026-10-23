@@ -1,0 +1,69 @@
+#saga-chapters{display:flex;flex-wrap:wrap;gap:7px}
+#saga-chapters button{padding:8px 10px;border:1px solid #ffffff12;border-radius:5px;color:#8f9bad;background:#ffffff02;font:10px/1.3 var(--sans)}
+#saga-chapters button:hover{color:#fff;border-color:#ffffff40}
+#saga-chapters button[aria-pressed=true]{color:#f2f4f8;border-color:#7b879b;background:#ffffff09}
+#saga-time{font:10px var(--mono);color:#a6b3c7;font-variant-numeric:tabular-nums;white-space:nowrap}
+#saga-timeline{display:block;width:100%;height:5px;accent-color:#d4deed;cursor:pointer;margin:0}
+#saga-timeline:focus-visible{outline:2px solid white;outline-offset:7px}
+#saga-panel{scroll-margin-top:90px}
+.saga-page .library-hero{padding-bottom:28px}
+@media(max-width:550px){#saga-chapters{gap:6px}#saga-chapters button{font-size:10px;padding:9px 10px}#saga-time{font-size:9px}}
+/* A permanent title cover protects the idle and loading states. */
+.saga-trailer{padding:94px 30px 0}
+.saga-trailer-frame{position:relative;width:100%;max-width:var(--max);margin:0 auto;aspect-ratio:16/9;border-radius:14px;overflow:hidden;background:#08090d;border:1px solid #ffffff14;box-shadow:0 30px 90px #0009}
+.saga-trailer-frame video{display:block;width:100%;height:100%;object-fit:contain;background:#000;visibility:hidden}
+.saga-trailer-frame[data-trailer-state="playing"] video{visibility:visible}
+.saga-trailer-cover{position:absolute;inset:0;z-index:3;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:24px;background:#08090d;color:#edf0f6;text-align:center}
+.saga-trailer-cover[hidden]{display:none}
+.saga-trailer-titles>span{display:block;font:400 clamp(12px,1.5vw,22px)/1.5 var(--sans);letter-spacing:.32em;padding-left:.32em}
+.saga-trailer-titles h2{margin:18px 0 12px;font:400 clamp(30px,5.8vw,86px)/1.1 var(--sans);letter-spacing:.035em}
+.saga-trailer-titles p{margin:0 0 30px;color:#aeb6c6;font:400 clamp(12px,1.25vw,18px)/1.5 var(--sans)}
+#saga-trailer-sound{display:inline-flex;align-items:center;justify-content:center;gap:12px;min-height:48px;padding:12px 23px;border-radius:999px;border:1px solid #ffffff65;background:#ffffff08;color:#fff;font:600 14px/1.2 var(--sans);cursor:pointer}
+#saga-trailer-sound:hover{background:#edf0f6;color:#08090d}
+#saga-trailer-sound:focus-visible{outline:2px solid #fff;outline-offset:5px}
+#saga-trailer-sound>span:first-child{font-size:11px}
+.saga-trailer-status{min-height:1.4em;margin:14px 0 0;color:#b8c1d1;font:12px/1.4 var(--sans)}
+.saga-credits{margin-top:24px;color:#aeb6c6;font:13px/1.7 var(--sans)}
+.saga-credits p{margin:4px 0}.saga-credits a{color:#edf0f6;text-underline-offset:3px}
+.saga-page .saga-trailer + .library-hero{padding-top:58px}
+@media(max-width:550px){.saga-trailer{padding:82px 18px 0}.saga-trailer-frame{border-radius:10px;min-height:250px;aspect-ratio:16/10}.saga-trailer-cover{padding:18px}.saga-trailer-titles h2{margin-top:12px}.saga-trailer-titles p{margin-bottom:18px}#saga-trailer-sound{min-height:44px;padding:11px 18px;font-size:13px}.saga-trailer-status{margin-top:10px;font-size:11px}.saga-page .saga-trailer + .library-hero{padding-top:34px}}
+
+/* Gray and materials share the same clock; either view can be enlarged. */
+.saga-page .workflow-views[data-view="all"]{grid-template-columns:repeat(2,minmax(0,1fr))}
+.saga-page .workflow-views:not([data-view="all"]){grid-template-columns:minmax(0,1fr)}
+.saga-stage-retry{background:#151a23;border:1px solid #71829d;color:white;border-radius:5px;padding:9px 16px;cursor:pointer}
+.saga-stage-retry:focus-visible{outline:2px solid white;outline-offset:3px}
+@media(max-width:760px){.saga-page .workflow-views[data-view="all"]{grid-template-columns:minmax(0,1fr)}}
+
+/* Paper heading and confirmed author links. */
+.saga-paper-hero{padding:102px 24px 30px;text-align:center}
+.saga-paper-hero .wrap{max-width:1080px}
+.saga-paper-hero h1{margin:0;color:#f5f6f8;font:600 clamp(48px,6.4vw,88px)/1.08 var(--sans);letter-spacing:-.045em;overflow-wrap:break-word}
+.saga-paper-name,.saga-paper-subtitle,.saga-paper-subtitle>span{display:block}
+.saga-paper-subtitle{max-width:960px;margin:22px auto 0;color:#d8dce5;font:400 clamp(20px,2.1vw,29px)/1.4 var(--sans);letter-spacing:-.012em;text-wrap:balance;overflow-wrap:break-word}
+.saga-story-intro{max-width:680px;margin:24px auto 0;color:#b5bdcc;font:400 clamp(16px,1.6vw,19px)/1.6 var(--sans);text-wrap:balance}
+.saga-paper-authors{display:flex;flex-wrap:wrap;justify-content:center;align-items:baseline;gap:4px 32px;list-style:none;margin:28px 0 0;padding:0}
+.saga-paper-authors li{margin:0;padding:0}
+.saga-paper-authors a{display:inline-flex;align-items:baseline;min-height:44px;padding:10px 0;color:#b9d5f4;font:400 18px/1.4 var(--sans);white-space:nowrap;text-decoration:none;text-underline-offset:5px}
+.saga-paper-authors a:hover{color:#fff;text-decoration:underline}
+.saga-paper-authors a:focus-visible{outline:2px solid #c8def7;outline-offset:5px;border-radius:2px}
+.saga-paper-authors sup{position:relative;top:-.35em;margin-left:3px;font-size:.62em;line-height:1}
+.saga-paper-hero + .saga-trailer{padding-top:0}
+.saga-trailer-caption{padding-top:16px}.saga-trailer-caption p{margin:0}
+.saga-project-context{padding:28px 30px 24px}
+.saga-project-summary{display:flex;align-items:center;justify-content:space-between;gap:26px 48px}
+.saga-project-summary>p{max-width:700px;margin:0;color:#b5bdcc;font:400 16px/1.7 var(--sans)}
+.saga-project-summary .library-stats{flex-shrink:0;gap:34px;margin:0}
+.saga-project-context .saga-credits{margin-top:20px}
+.saga-page .workflow-section{padding-top:24px}
+.saga-page .workflow-chain{margin:0 0 24px;padding:20px 0}
+.saga-page .workflow-selection-heading{align-items:baseline;flex-wrap:wrap;gap:6px 20px}
+.saga-page .workflow-selection-heading>span:last-child{font:400 14px/1.6 var(--sans);color:#aeb6c6}
+.saga-footer-authors{margin-bottom:24px;padding-bottom:16px;border-bottom:1px solid var(--line)}
+.saga-footer-authors .saga-paper-authors{justify-content:flex-start;margin:0}
+.saga-footer-authors .saga-paper-authors a{font-size:15px}
+@media(max-width:760px){.saga-project-summary{flex-direction:column;align-items:flex-start;gap:22px}.saga-project-summary .library-stats{gap:30px}}
+@media(max-width:550px){.saga-paper-hero{padding:82px 18px 22px}.saga-paper-hero h1{font-size:clamp(40px,11vw,58px);letter-spacing:-.045em}.saga-paper-subtitle{margin-top:18px;font-size:20px;line-height:1.45}.saga-paper-authors{gap:0 22px;margin-top:22px}.saga-paper-authors a{font-size:16px}.saga-project-context{padding:24px 18px 18px}.saga-project-summary>p{font-size:15px}.saga-page .workflow-section{padding-top:18px}.saga-page .workflow-chain{margin:0 0 20px;padding:18px 0}.saga-page .workflow-selection-heading>span:last-child{font-size:13px}.saga-footer-authors{margin-bottom:18px;padding-bottom:12px}}
+.workflow-stage header .geometry-modes { margin-left: auto; align-self: center; flex-wrap: wrap; gap: 4px; }
+.workflow-stage header .geometry-modes[hidden] { display: none !important; }
+.workflow-stage header .geometry-modes button { white-space: nowrap; font-size: .72rem; padding: 5px 9px; }

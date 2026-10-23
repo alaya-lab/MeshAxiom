@@ -1,0 +1,112 @@
+[
+ {
+  "key": "carrier_deck",
+  "name": "Carrier flight deck",
+  "faces": 8583,
+  "input": "assets/kit/carrier_deck-input.webp",
+  "gray": "assets/kit/carrier_deck-graywire.webp",
+  "material": "assets/kit/carrier_deck-material.webp",
+  "mesh": "assets/kit/carrier_deck.glb",
+  "materialKind": "Pixal3D texture, colour-matched, with the input image projected on visible faces; unchanged original geometry"
+ },
+ {
+  "key": "carrier_bow",
+  "name": "Carrier bow",
+  "faces": 12705,
+  "input": "assets/kit/carrier_bow-input.webp",
+  "gray": "assets/kit/carrier_bow-graywire.webp",
+  "material": "assets/kit/carrier_bow-material.webp",
+  "mesh": "assets/kit/carrier_bow.glb",
+  "materialKind": "Pixal3D texture, colour-matched, with the input image projected on visible faces; unchanged original geometry"
+ },
+ {
+  "key": "carrier_stern",
+  "name": "Carrier engine stern",
+  "faces": 8131,
+  "input": "assets/kit/carrier_stern-input.webp",
+  "gray": "assets/kit/carrier_stern-graywire.webp",
+  "material": "assets/kit/carrier_stern-material.webp",
+  "mesh": "assets/kit/carrier_stern.glb",
+  "materialKind": "Pixal3D texture, colour-matched, with the input image projected on visible faces; unchanged original geometry"
+ },
+ {
+  "key": "carrier_island",
+  "name": "Carrier command island",
+  "faces": 13398,
+  "input": "assets/kit/carrier_island-input.webp",
+  "gray": "assets/kit/carrier_island-graywire.webp",
+  "material": "assets/kit/carrier_island-material.webp",
+  "mesh": "assets/kit/carrier_island.glb",
+  "materialKind": "Pixal3D texture, colour-matched, with the input image projected on visible faces; unchanged original geometry"
+ },
+ {
+  "key": "pd_turret",
+  "name": "Point-defence turret",
+  "faces": 6708,
+  "input": "assets/kit/pd_turret-input.webp",
+  "gray": "assets/kit/pd_turret-graywire.webp",
+  "material": "assets/kit/pd_turret-material.webp",
+  "mesh": "assets/kit/pd_turret.glb",
+  "materialKind": "Pixal3D texture, colour-matched, with the input image projected on visible faces; unchanged original geometry"
+ },
+ {
+  "key": "fighter",
+  "name": "Interceptor fighter",
+  "faces": 6463,
+  "input": "assets/kit/fighter-input.webp",
+  "gray": "assets/kit/fighter-graywire.webp",
+  "material": "assets/kit/fighter-material.webp",
+  "mesh": "assets/kit/fighter.glb",
+  "materialKind": "Pixal3D texture, colour-matched, with the input image projected on visible faces; unchanged original geometry"
+ },
+ {
+  "key": "dropship",
+  "name": "Dropship",
+  "faces": 8259,
+  "input": "assets/kit/dropship-input.webp",
+  "gray": "assets/kit/dropship-graywire.webp",
+  "material": "assets/kit/dropship-material.webp",
+  "mesh": "assets/kit/dropship.glb",
+  "materialKind": "Pixal3D texture, colour-matched, with the input image projected on visible faces; unchanged original geometry"
+ },
+ {
+  "key": "cargo_container",
+  "name": "Cargo container",
+  "faces": 5171,
+  "input": "assets/kit/cargo_container-input.webp",
+  "gray": "assets/kit/cargo_container-graywire.webp",
+  "material": "assets/kit/cargo_container-material.webp",
+  "mesh": "assets/kit/cargo_container.glb",
+  "materialKind": "Pixal3D texture, colour-matched, with the input image projected on visible faces; unchanged original geometry"
+ },
+ {
+  "key": "asteroid",
+  "name": "Asteroid",
+  "faces": 9322,
+  "input": "assets/kit/asteroid-input.webp",
+  "gray": "assets/kit/asteroid-graywire.webp",
+  "material": "assets/kit/asteroid-material.webp",
+  "mesh": "assets/kit/asteroid.glb",
+  "materialKind": "Pixal3D texture, colour-matched, with the input image projected on visible faces; unchanged original geometry"
+ },
+ {
+  "key": "comm_satellite",
+  "name": "Comms satellite",
+  "faces": 8294,
+  "input": "assets/kit/comm_satellite-input.webp",
+  "gray": "assets/kit/comm_satellite-graywire.webp",
+  "material": "assets/kit/comm_satellite-material.webp",
+  "mesh": "assets/kit/comm_satellite.glb",
+  "materialKind": "Pixal3D texture, colour-matched, with the input image projected on visible faces; unchanged original geometry"
+ },
+ {
+  "key": "gate_segment",
+  "name": "Jump-gate arc",
+  "faces": 9367,
+  "input": "assets/kit/gate_segment-input.webp",
+  "gray": "assets/kit/gate_segment-graywire.webp",
+  "material": "assets/kit/gate_segment-material.webp",
+  "mesh": "assets/kit/gate_segment.glb",
+  "materialKind": "Pixal3D texture, colour-matched, with the input image projected on visible faces; unchanged original geometry"
+ }
+]
