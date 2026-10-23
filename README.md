@@ -10,4 +10,6 @@ Explore 123 generated assets, nineteen assemblies and twelve animated scenes. Ge
 
 This repository contains the static project website, asset-library page, application scripts, styles and JSON data. Models, videos, images and fonts are distributed through the [MeshAxiom Project Assets repository](https://huggingface.co/datasets/AlayaLab/MeshAxiom-Assets). The [MeshAxiom-Base model weights](https://huggingface.co/AlayaLab/MeshAxiom-Base) are publicly available. Training code and workflow tools are planned releases.
 
-The site is served directly from the repository root with GitHub Pages; `.nojekyll` preserves static asset handling. Shared viewers and data are included under `alayacrafter/` and `alaya-kit/`. `asset-url.js` maps known binary resources to Hugging Face dataset revision `37cc2e36e3679c4f819da1488afbe61eec442e9e`; project navigation and source-page aliases stay within the official GitHub Pages project.
+The site is served directly from the repository root with GitHub Pages; `.nojekyll` preserves static asset handling. Shared viewers and data are included under `alayacrafter/` and `alaya-kit/`. `asset-url.js` maps known binary resources to Hugging Face dataset revision `1322b87c459531ccc8768d1ff9094d66b6749388`; project navigation and source-page aliases stay within the official GitHub Pages project.
+
+The asset snapshot is limited to media used by the current homepage and library, including selectable previews, interactive views, downloads and runtime fallback meshes. Historical demos that the current pages do not use are excluded.
